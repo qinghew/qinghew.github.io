@@ -1,0 +1,58 @@
+# jemdoc: nofooter,title{Qinghe Wang（王清和）| Dalian University of Technology（大连理工大学）}
+==Qinghe Wang(王清和)
+
+~~~
+{}{img_left}{indexpic/wqh.jpg}{alt text}{140}{180}{http://qinghew.github.io}
+I am a first year PhD student at the IIAU-Lab in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (卢湖川)] and [https://stephenjia.github.io/ Xu Jia (贾旭)]. I obtained my Master degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu (朱鹏飞)] and [https://bcaosudo.github.io/ Bing Cao (曹兵)]. I was an intern at ByteDance Intelligent Creation Lab, Beijing in 2022. My main research interests includes Image\/Video generation and editing with Diffusion models\/GAN.
+
+E-mail: aitwqh@163.com \n
+
+\[[https://github.com/qinghew GitHub]\] \[[https://scholar.google.com/citations?user=bY5ueZsAAAAJ&hl=zh-CN Google Scholar]\]
+~~~
+
+== News!
+\[2023\/06\]~~*Outstanding Master's Thesis of Tianjin University*. \n
+\[2023\/1\]~~\"{{<u>Multi-view knowledge ensemble with frequency consistency for cross-domain face translation</u>}}\" has been accepted by *IEEE Transactions on Neural Networks and Learning Systems (TNNLS)*. \n
+\[2022\/8\]~~\"{{<u>基于自判别循环生成对抗网络的人脸图像翻译</u>}}\" has been published by *《中国科学：信息科学》*. \n
+
+
+== Selected Publications
+
+~~~
+{}{img_left}{indexpic/hs_diffusion.png}{alt text}{280}{115}{indexpic/hs_diffusion.png}
+\[*Arxiv 2023*]~~\n{{<u>HS-Diffusion: Semantic-Mixing Diffusion for Head Swapping
+</u>}} \n *Qinghe Wang*, Lijie Liu, Miao Hua, Pengfei Zhu, Wangmeng Zuo, Qinghua Hu, Huchuan Lu, Bing Cao. \n \[[https://arxiv.org/abs/2212.06458 Paper]\] \[[https://github.com/qinghew/HS-Diffusion Code]\]
+~~~
+
+
+~~~
+{}{img_left}{indexpic/mvke.png}{alt text}{280}{115}{indexpic/mvke.png}
+\[*TNNLS* \<span style=\"color: blue\"\> CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>Multi-view knowledge ensemble with frequency consistency for cross-domain face translation</u>}} \n IEEE Transactions on Neural Networks and Learning Systems (2023). \n Bing Cao, *Qinghe Wang*, Pengfei Zhu, Qinghua Hu, Dongwei Ren, Wangmeng Zuo, Xinbo Gao. \n \[[https://ieeexplore.ieee.org/abstract/document/10021294 Paper]\] \[[https://github.com/qinghew/MvKE-FC Code]\]
+~~~
+
+
+~~~
+{}{img_left}{indexpic/scgan.png}{alt text}{280}{115}{indexpic/scgan.png}
+\[*中国科学：信息科学* \<span style=\"color: blue\"\>CCF A\<\/span\>\]~~\n{{<u>基于自判别循环生成对抗网络的人脸图像翻译</u>}} \n 中国科学：信息科学 (2022). \n *王清和*, 曹兵, 朱鹏飞, 王楠楠, 胡清华, 高新波. \n \[[https://www.sciengine.com/SSI/doi/10.1360/SSI-2021-0321 Paper]\] \[[https://github.com/qinghew/SDGAN Code]\]
+~~~
+
+
+
+== Service
+I serves as a reviewer of: ICLR, ICME, etc.
+
+
+== Awards
+- *Outstanding Master's Thesis of Tianjin University 2023*\n
+- Gold Award of Huawei Ascend AI Innovation Competition 2023\n
+- Third Prize of “Huawei Cup” - the 18th China Postgraduate Mathematical Contest in Modeling 2020\n
+- *Outstanding Graduates from Liaoning Province 2020*\n
+- First prize (1st place) of the software competition in Rockwell Automation Dalian Software R&D Center 2019\n
+- Third Prize of Chinese College Students Computer Design Contest	2019\n
+- Honorable Mention of The Mathematical Contest in Modeling (MCM) 2019\n
+- Provincial second prize of “NXP” Cup National University Students Intelligent Car Race Competition 2019\n
+- Third Prize of iCAN International Contest of innovation 2018\n
+- Meritorious Winner of The Mathematical Contest in Modeling (MCM) 2018\n
+- Provincial second prize of “TI” Cup Liaoning Provincial Undergraduate Electronic Design Contest 2018\n
+- Provincial second prize of “NXP” Cup National University Students Intelligent Car Race Competition 2018\n
+- Provincial second prize of National Undergraduate Electronics Design Contest 2017\n
