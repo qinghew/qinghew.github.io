@@ -11,12 +11,21 @@ E-mail: aitwqh@163.com \n
 ~~~
 
 == News!
+\[2024\/1\]~~Release paper \"{{<u>StableIdentity: Inserting Anybody into Anywhere at First Sight</u>}}\". \n
 \[2023\/06\]~~*Outstanding Master's Thesis of Tianjin University*. \n
 \[2023\/1\]~~\"{{<u>Multi-view knowledge ensemble with frequency consistency for cross-domain face translation</u>}}\" has been accepted by *IEEE Transactions on Neural Networks and Learning Systems (TNNLS)*. \n
+\[2023\/8\]~~Release paper \"{{<u>HS-Diffusion: Semantic-Mixing Diffusion for Head Swapping</u>}}\". \n
 \[2022\/8\]~~\"{{<u>基于自判别循环生成对抗网络的人脸图像翻译</u>}}\" has been published by *《中国科学：信息科学》*. \n
 
 
 == Selected Publications
+
+~~~
+{}{img_left}{StableIdentity\static\images\framework.svg}{alt text}{280}{115}{StableIdentity\static\images\framework.svg}
+\[*Arxiv 2024*]~~\n{{<u>StableIdentity: Inserting Anybody into Anywhere at First Sight
+</u>}} \n *Qinghe Wang*, Xu Jia, Xiaomin Li, Taiqing Li, Liqian Ma, Yunzhi Zhuge, Huchuan Lu. \n \[[https://arxiv.org/abs/2401.15975 Paper]\] \[[https://qinghew.github.io/StableIdentity/ Project]\] \[[https://github.com/qinghew/StableIdentity Code]\]
+~~~
+
 
 ~~~
 {}{img_left}{indexpic/hs_diffusion.png}{alt text}{280}{115}{indexpic/hs_diffusion.png}
