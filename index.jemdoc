@@ -11,6 +11,7 @@ E-mail: aitwqh@163.com \n
 ~~~
 
 == News!
+\[2024\/4\]~~🔥 Release paper \"{{<u>CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models</u>}}\". \n
 \[2024\/3\]~~🔥 Release all the codes of \"{{<u>StableIdentity</u>}}\". Welcome to use! \n
 \[2024\/1\]~~🔥 Release paper \"{{<u>StableIdentity: Inserting Anybody into Anywhere at First Sight</u>}}\". \n
 \[2023\/6\]~~*Outstanding Master's Thesis of Tianjin University*. \n
@@ -20,6 +21,13 @@ E-mail: aitwqh@163.com \n
 
 
 == Selected Publications
+~~~
+{}{img_left}{CharacterFactory\static\images\CharacterFactory_framework.svg}{alt text}{280}{115}{CharacterFactory\static\images\CharacterFactory_framework.svg}
+\[*Arxiv 2024*]~~\n{{<u>🔥 CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models
+</u>}} \n *Qinghe Wang*, Baolu Li, Xiaomin Li, Bing Cao, Liqian Ma, Huchuan Lu, Xu Jia. \n \[[https://arxiv.org/abs/2404.15677 Paper]\] \[[https://qinghew.github.io/CharacterFactory/ Project]\] \[[https://github.com/qinghew/CharacterFactory Code]\]
+~~~
+
+
 
 ~~~
 {}{img_left}{StableIdentity\static\images\framework.svg}{alt text}{280}{115}{StableIdentity\static\images\framework.svg}
