@@ -11,21 +11,22 @@ E-mail: aitwqh@163.com \n
 ~~~
 
 == News!
-\[2024\/5\]~~🔥 Release all the codes of \"{{<u>CharacterFactory</u>}}\". Welcome to use! \n
-\[2024\/4\]~~🔥 Release paper \"{{<u>CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models</u>}}\". \n
-\[2024\/3\]~~🔥 Release all the codes of \"{{<u>StableIdentity</u>}}\". Welcome to use! \n
-\[2024\/1\]~~🔥 Release paper \"{{<u>StableIdentity: Inserting Anybody into Anywhere at First Sight</u>}}\". \n
+\[2024\/5\]~~🔥 Release a [https://huggingface.co/spaces/DecoderWQH666/CharacterFactory *gradio demo*] of \"{{CharacterFactory}}\". Welcome to play! \n
+\[2024\/5\]~~🔥 Release all the [https://github.com/qinghew/StableIdentity *codes*] of \"{{CharacterFactory}}\". Welcome to use! \n
+\[2024\/4\]~~🔥 Release paper \"[https://arxiv.org/abs/2401.15975 {{CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models}}]\". \n
+\[2024\/3\]~~🔥 Release all the [https://github.com/qinghew/StableIdentity *codes*] of \"{{StableIdentity}}\". Welcome to use! \n
+\[2024\/1\]~~🔥 Release paper \"[https://arxiv.org/abs/2401.15975 {{StableIdentity: Inserting Anybody into Anywhere at First Sight}}]\", [[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]. \n
 \[2023\/6\]~~*Outstanding Master's Thesis of Tianjin University*. \n
-\[2023\/1\]~~\"{{<u>Multi-view knowledge ensemble with frequency consistency for cross-domain face translation</u>}}\" has been accepted by *IEEE Transactions on Neural Networks and Learning Systems (TNNLS)*. \n
-\[2023\/8\]~~Release paper \"{{<u>HS-Diffusion: Semantic-Mixing Diffusion for Head Swapping</u>}}\". \n
-\[2022\/8\]~~\"{{<u>基于自判别循环生成对抗网络的人脸图像翻译</u>}}\" has been published by *《中国科学：信息科学》*. \n
+\[2023\/1\]~~\"[https://ieeexplore.ieee.org/abstract/document/10021294 {{Multi-view knowledge ensemble with frequency consistency for cross-domain face translation}}]\" is accepted by *TNNLS*. \n
+\[2023\/8\]~~Release paper \"{{HS-Diffusion: Semantic-Mixing Diffusion for Head Swapping}}\". \n
+\[2022\/8\]~~\"[https://www.sciengine.com/SSI/doi/10.1360/SSI-2021-0321 {{基于自判别循环生成对抗网络的人脸图像翻译}}]\" is published by *《中国科学：信息科学》*. \n
 
 
 == Selected Publications
 ~~~
 {}{img_left}{CharacterFactory\static\images\CharacterFactory_framework.svg}{alt text}{280}{115}{CharacterFactory\static\images\CharacterFactory_framework.svg}
 \[*Arxiv 2024*]~~\n{{<u>🔥 CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models
-</u>}} \n *Qinghe Wang*, Baolu Li, Xiaomin Li, Bing Cao, Liqian Ma, Huchuan Lu, Xu Jia. \n \[[https://arxiv.org/abs/2404.15677 Paper]\] \[[https://qinghew.github.io/CharacterFactory/ Project]\] \[[https://github.com/qinghew/CharacterFactory Code]\]
+</u>}} \n *Qinghe Wang*, Baolu Li, Xiaomin Li, Bing Cao, Liqian Ma, Huchuan Lu, Xu Jia. \n \[[https://huggingface.co/spaces/DecoderWQH666/CharacterFactory *Gradio Demo*]\] \[[https://arxiv.org/abs/2404.15677 Paper]\] \[[https://qinghew.github.io/CharacterFactory/ Project]\] \[[https://github.com/qinghew/CharacterFactory Code]\]
 ~~~
 
 
