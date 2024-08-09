@@ -3,7 +3,7 @@
 
 ~~~
 {}{img_left}{indexpic/wqh.jpg}{alt text}{140}{180}{http://qinghew.github.io}
-I am a first year PhD student at the IIAU-Lab in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (卢湖川)] and [https://stephenjia.github.io/ Xu Jia (贾旭)]. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu (朱鹏飞)] and [https://bcaosudo.github.io/ Bing Cao (曹兵)]. I was an intern at ByteDance Intelligent Creation Lab, Beijing in 2022. I obtained my Bachelor's degree from Dalian Maritime University. My main research interests includes Image\/Video generation and editing with Diffusion models\/GAN.
+I am a first year PhD student at the IIAU-Lab in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (卢湖川)] and [https://stephenjia.github.io/ Xu Jia (贾旭)]. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu (朱鹏飞)] and [https://bcaosudo.github.io/ Bing Cao (曹兵)]. I was an intern at ByteDance Intelligent Creation Lab, Beijing in 2022, supervised by [https://liulj13.github.io/ Lijie Liu] and Qian He. I obtained my Bachelor's degree from Dalian Maritime University. My main research interests includes Image\/Video generation and editing with Diffusion models\/GAN.
 
 E-mail: aitwqh@163.com \n
 
@@ -11,15 +11,12 @@ E-mail: aitwqh@163.com \n
 ~~~
 
 == News!
-\[2024\/5\]~~🔥 Release a [https://huggingface.co/spaces/DecoderWQH666/CharacterFactory *gradio demo*] of \"{{CharacterFactory}}\". Welcome to play! \n
-\[2024\/5\]~~🔥 Release all the [https://github.com/qinghew/StableIdentity *codes*] of \"{{CharacterFactory}}\". Welcome to use! \n
-\[2024\/4\]~~🔥 Release paper \"[https://arxiv.org/abs/2401.15975 {{CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models}}]\". \n
-\[2024\/3\]~~🔥 Release all the [https://github.com/qinghew/StableIdentity *codes*] of \"{{StableIdentity}}\". Welcome to use! \n
-\[2024\/1\]~~🔥 Release paper \"[https://arxiv.org/abs/2401.15975 {{StableIdentity: Inserting Anybody into Anywhere at First Sight}}]\", [[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]. \n
-\[2023\/6\]~~*Outstanding Master's Thesis of Tianjin University*. \n
-\[2023\/1\]~~\"[https://ieeexplore.ieee.org/abstract/document/10021294 {{Multi-view knowledge ensemble with frequency consistency for cross-domain face translation}}]\" is accepted by *TNNLS*. \n
-\[2023\/8\]~~Release paper \"{{HS-Diffusion: Semantic-Mixing Diffusion for Head Swapping}}\". \n
-\[2022\/8\]~~\"[https://www.sciengine.com/SSI/doi/10.1360/SSI-2021-0321 {{基于自判别循环生成对抗网络的人脸图像翻译}}]\" is published by *《中国科学：信息科学》*. \n
+# \[2024\/7\]~~Join in KwaiVGI, Kuaishou Technology as a research intern, supervised by [https://xinntao.github.io/ Xintao Wang]. \n
+\[2024\/5\]~~Release a [https://huggingface.co/spaces/DecoderWQH666/CharacterFactory *gradio demo*] of \"{{CharacterFactory}}\". Welcome to play! \n
+\[2024\/5\]~~Release all the [https://github.com/qinghew/CharacterFactory *codes*] of \"{{CharacterFactory}}\". Welcome to use! \n
+\[2024\/4\]~~Release paper \"[https://arxiv.org/abs/2404.15677 {{CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models}}]\". \n
+\[2024\/3\]~~Release all the [https://github.com/qinghew/StableIdentity *codes*] of \"{{StableIdentity}}\". Welcome to use! \n
+\[2024\/1\]~~Release paper \"[https://arxiv.org/abs/2401.15975 {{StableIdentity: Inserting Anybody into Anywhere at First Sight}}]\", [[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]. \n
 
 
 == Selected Publications
