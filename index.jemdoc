@@ -2,61 +2,89 @@
 ==Qinghe Wang(王清和)
 
 ~~~
-{}{img_left}{indexpic/wqh.jpg}{alt text}{140}{180}{http://qinghew.github.io}
-I am a first year PhD student at the IIAU-Lab in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (卢湖川)] and [https://stephenjia.github.io/ Xu Jia (贾旭)]. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu (朱鹏飞)] and [https://bcaosudo.github.io/ Bing Cao (曹兵)]. I was an intern at ByteDance Intelligent Creation Lab, Beijing in 2022, supervised by [https://liulj13.github.io/ Lijie Liu] and Qian He. I obtained my Bachelor's degree from Dalian Maritime University. My main research interests includes Image\/Video generation and editing with Diffusion models\/GAN.
+{}{img_left}{indexpic/wqh.jpg}{alt text}{150}{180}{http://qinghew.github.io}
+I am a second year PhD student at the IIAU-Lab in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (卢湖川)] and [https://stephenjia.github.io/ Xu Jia (贾旭)]. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu (朱鹏飞)] and [https://bcaosudo.github.io/ Bing Cao (曹兵)]. I obtained my Bachelor's degree from Dalian Maritime University. My research focuses on Video\/Image generation with Diffusion models\/GANs.
 
 E-mail: aitwqh@163.com \n
 
-\[[https://github.com/qinghew GitHub]\] \[[https://scholar.google.com/citations?user=bY5ueZsAAAAJ&hl=zh-CN Google Scholar]\]
+\[[https://github.com/qinghew GitHub]\] \[[https://scholar.google.com/citations?user=bY5ueZsAAAAJ&hl=zh-CN Google Scholar]\] \[[https://x.com/home Twitter/X]\]
 ~~~
 
 == News!
-# \[2024\/7\]~~Join in KwaiVGI, Kuaishou Technology as a research intern, supervised by [https://xinntao.github.io/ Xintao Wang]. \n
-\[2024\/5\]~~Release a [https://huggingface.co/spaces/DecoderWQH666/CharacterFactory *gradio demo*] of \"{{CharacterFactory}}\". Welcome to play! \n
-\[2024\/5\]~~Release all the [https://github.com/qinghew/CharacterFactory *codes*] of \"{{CharacterFactory}}\". Welcome to use! \n
+\[2025\/2\]~~Release paper \"[https://arxiv.org/abs/2502.08639 {{CineMaster: A 3D-Aware and Controllable Framework for Cinematic Text-to-Video Generation}}]\". \n
+\[2024\/5\]~~Release a [https://huggingface.co/spaces/DecoderWQH666/CharacterFactory *Gradio Demo*] of \"{{CharacterFactory}}\". Welcome to play! \n
+\[2024\/5\]~~Release all the [https://github.com/qinghew/CharacterFactory *Codes*] of \"{{CharacterFactory}}\". Welcome to use! \n
 \[2024\/4\]~~Release paper \"[https://arxiv.org/abs/2404.15677 {{CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models}}]\". \n
-\[2024\/3\]~~Release all the [https://github.com/qinghew/StableIdentity *codes*] of \"{{StableIdentity}}\". Welcome to use! \n
+\[2024\/3\]~~Release all the [https://github.com/qinghew/StableIdentity *Codes*] of \"{{StableIdentity}}\". Welcome to use! \n
 \[2024\/1\]~~Release paper \"[https://arxiv.org/abs/2401.15975 {{StableIdentity: Inserting Anybody into Anywhere at First Sight}}]\", [[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]. \n
+
+
+== Internships
+~~~
+{}{img_left}{indexpic\kuaishou.png}{alt text}{200}{40}{indexpic\kuaishou.png}
+*Kuaishou*\n
+2024.7\~Now Research Intern in Kuaishou Visual Generation and Interaction Center (Shenzhen)~~\n
+Supervisors: [https://xiaoyushi97.github.io/ Xiaoyu Shi], [https://xinntao.github.io/ Xintao Wang] \n
+Topic: Video Generation
+~~~
+
+
+~~~
+{}{img_left}{indexpic\bytedance.png}{alt text}{200}{80}{indexpic\bytedance.png}
+*ByteDance*\n
+2022.4\~2022.12 Research Intern in ByteDance Intelligent Creation Lab (Beijing)~~\n
+Supervisors: [https://liulj13.github.io/ Lijie Liu], [https://scholar.google.com/citations?user=9rWWCgUAAAAJ&hl=zh-CN Qian He] \n
+Topic: Image Generation
+~~~
+
 
 
 == Selected Publications
 ~~~
-{}{img_left}{CharacterFactory\static\images\CharacterFactory_framework.svg}{alt text}{280}{115}{CharacterFactory\static\images\CharacterFactory_framework.svg}
-\[*Arxiv 2024*]~~\n{{<u>🔥 CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models
-</u>}} \n *Qinghe Wang*, Baolu Li, Xiaomin Li, Bing Cao, Liqian Ma, Huchuan Lu, Xu Jia. \n \[[https://huggingface.co/spaces/DecoderWQH666/CharacterFactory *Gradio Demo*]\] \[[https://arxiv.org/abs/2404.15677 Paper]\] \[[https://qinghew.github.io/CharacterFactory/ Project]\] \[[https://github.com/qinghew/CharacterFactory Code]\]
+{}{video_left}{indexpic\cinemaster-teaser.mp4}{alt text}{400}{240}{indexpic\cinemaster-teaser.mp4}
+\[*SIGGRAPH 2025* \<span style=\"color: blue\"\> CCF A\<\/span\>\]~~\n{{<u>🔥 CineMaster: A 3D-Aware and Controllable Framework for Cinematic Text-to-Video Generation
+</u>}} \n *Qinghe Wang*\*, Yawen Luo\*, Xiaoyu Shi✉, Xu Jia✉, Huchuan Lu, Tianfan Xue✉, Xintao Wang, Pengfei Wan, Di Zhang, Kun Gai. \n \[[https://arxiv.org/abs/2502.08639 Paper]\] \[[https://cinemaster-dev.github.io/ Project]\]
 ~~~
 
 
 
 ~~~
-{}{img_left}{StableIdentity\static\images\framework.svg}{alt text}{280}{115}{StableIdentity\static\images\framework.svg}
-\[*Arxiv 2024*]~~\n{{<u>🔥 StableIdentity: Inserting Anybody into Anywhere at First Sight
-</u>}} \n *Qinghe Wang*, Xu Jia, Xiaomin Li, Taiqing Li, Liqian Ma, Yunzhi Zhuge, Huchuan Lu. \n \[[https://arxiv.org/abs/2401.15975 Paper]\] \[[https://qinghew.github.io/StableIdentity/ Project]\] \[[https://github.com/qinghew/StableIdentity Code]\] \[[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]\] \[[https://mp.weixin.qq.com/s/KrFruefIGnMOUZCGMTFE9Q 极市平台报道，CVer转载]\]
+{}{img_left}{CharacterFactory\static\images\teaser.svg}{alt text}{400}{240}{CharacterFactory\static\images\teaser.svg}
+\[*TIP 2025* \<span style=\"color: blue\"\> CAS-JCR Q1 Top; CCF A\<\/span\>\]~~\n{{<u>🔥 CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models
+</u>}} \n *Qinghe Wang*, Baolu Li, Xiaomin Li, Bing Cao, Liqian Ma, Huchuan Lu, Xu Jia✉. \n \[[https://huggingface.co/spaces/DecoderWQH666/CharacterFactory *Gradio Demo*]\] \[[https://arxiv.org/abs/2404.15677 Paper]\] \[[https://qinghew.github.io/CharacterFactory/ Project]\] \[[https://github.com/qinghew/CharacterFactory Code]\]
+~~~
+
+
+
+~~~
+{}{video_left}{indexpic\sdid_video.mp4}{alt text}{400}{230}{indexpic\sdid_video.mp4}
+\[*TMM 2025* \<span style=\"color: blue\"\> CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>🔥 StableIdentity: Inserting Anybody into Anywhere at First Sight
+</u>}} \n *Qinghe Wang*, Xu Jia✉, Xiaomin Li, Taiqing Li, Liqian Ma, Yunzhi Zhuge, Huchuan Lu. \n \[[https://arxiv.org/abs/2401.15975 Paper]\] \[[https://qinghew.github.io/StableIdentity/ Project]\] \[[https://github.com/qinghew/StableIdentity Code]\] \[[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]\] \[[https://mp.weixin.qq.com/s/KrFruefIGnMOUZCGMTFE9Q 极市平台报道，CVer转载]\]
 ~~~
 
 
 ~~~
-{}{img_left}{indexpic/hs_diffusion.png}{alt text}{280}{115}{indexpic/hs_diffusion.png}
+{}{img_left}{indexpic/hs_diffusion.png}{alt text}{400}{160}{indexpic/hs_diffusion.png}
 \[*Arxiv 2023*]~~\n{{<u>HS-Diffusion: Semantic-Mixing Diffusion for Head Swapping
-</u>}} \n *Qinghe Wang*, Lijie Liu, Miao Hua, Pengfei Zhu, Wangmeng Zuo, Qinghua Hu, Huchuan Lu, Bing Cao. \n \[[https://arxiv.org/abs/2212.06458 Paper]\] \[[https://github.com/qinghew/HS-Diffusion Code]\]
+</u>}} \n *Qinghe Wang*, Lijie Liu, Miao Hua, Pengfei Zhu, Wangmeng Zuo, Qinghua Hu, Huchuan Lu, Bing Cao✉. \n \[[https://arxiv.org/abs/2212.06458 Paper]\] \[[https://github.com/qinghew/HS-Diffusion Code]\]
 ~~~
 
 
 ~~~
-{}{img_left}{indexpic/mvke.png}{alt text}{280}{115}{indexpic/mvke.png}
-\[*TNNLS* \<span style=\"color: blue\"\> CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>Multi-view knowledge ensemble with frequency consistency for cross-domain face translation</u>}} \n IEEE Transactions on Neural Networks and Learning Systems (2023). \n Bing Cao, *Qinghe Wang*, Pengfei Zhu, Qinghua Hu, Dongwei Ren, Wangmeng Zuo, Xinbo Gao. \n \[[https://ieeexplore.ieee.org/abstract/document/10021294 Paper]\] \[[https://github.com/qinghew/MvKE-FC Code]\]
+{}{img_left}{indexpic/mvke.png}{alt text}{400}{220}{indexpic/mvke.png}
+\[*TNNLS 2023* \<span style=\"color: blue\"\> CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>Multi-view knowledge ensemble with frequency consistency for cross-domain face translation</u>}} \n Bing Cao, *Qinghe Wang*, Pengfei Zhu✉, Qinghua Hu, Dongwei Ren, Wangmeng Zuo, Xinbo Gao. \n \[[https://ieeexplore.ieee.org/abstract/document/10021294 Paper]\] \[[https://github.com/qinghew/MvKE-FC Code]\]
 ~~~
 
 
 ~~~
-{}{img_left}{indexpic/scgan.png}{alt text}{280}{115}{indexpic/scgan.png}
-\[*中国科学：信息科学* \<span style=\"color: blue\"\>CCF A\<\/span\>\]~~\n{{<u>基于自判别循环生成对抗网络的人脸图像翻译</u>}} \n 中国科学：信息科学 (2022). \n *王清和*, 曹兵, 朱鹏飞, 王楠楠, 胡清华, 高新波. \n \[[https://www.sciengine.com/SSI/doi/10.1360/SSI-2021-0321 Paper]\] \[[https://github.com/qinghew/SDGAN Code]\]
+{}{img_left}{indexpic/scgan.png}{alt text}{400}{180}{indexpic/scgan.png}
+\[*中国科学：信息科学* \<span style=\"color: blue\"\>CCF A类中文期刊\<\/span\>\]~~\n{{<u>基于自判别循环生成对抗网络的人脸图像翻译</u>}} \n 中国科学：信息科学 (2022). \n *王清和*, 曹兵✉, 朱鹏飞, 王楠楠, 胡清华, 高新波. \n \[[https://www.sciengine.com/SSI/doi/10.1360/SSI-2021-0321 Paper]\] \[[https://github.com/qinghew/SDGAN Code]\]
 ~~~
 
 
 
 == Service
-I serves as a reviewer of: TPAMI, TCSVT, ICLR, ACM MM, ICME, MIR, etc.
+I serves as a reviewer of: TPAMI, TIP, TNNLS, TCSVT, ICLR, ACM MM, ICME, MIR, etc.
 
 
 == Awards

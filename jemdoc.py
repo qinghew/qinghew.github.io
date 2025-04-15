@@ -1462,7 +1462,24 @@ def procfile(f):
             out(f.outf, '</a>')
           out(f.outf, '&nbsp;</td>\n<td align="left">')
           imgblock = True
+        elif len(g) >= 4 and g[1] == 'video_left':
+          # handles
+          # {}{video_left}{source}{alttext}{width}{height}{linktarget}
+          g += ['']*(7 - len(g))
+          
+          if g[4].isdigit():
+              g[4] += 'px'
 
+          if g[5].isdigit():
+              g[5] += 'px'
+
+          out(f.outf, '<table class="item has-text-centered"><tr><td>\n')
+          out(f.outf, '<video poster="" id="burger1" autoplay controls muted loop playsinline')
+          if g[4] and g[5]:
+              out(f.outf, ' style="width: %s; height: %s;"' % (g[4], g[5]))
+          out(f.outf, '><source src="%s" type="video/mp4"></video>' % g[2])
+          out(f.outf, '&nbsp;</td>\n<td align="left">')
+          imgblock = True  # 复用imgblock标记来处理后续内容          
         else:
           raise JandalError("couldn't handle block", f.linenum)
 
