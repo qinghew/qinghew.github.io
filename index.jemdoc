@@ -3,7 +3,7 @@
 
 ~~~
 {}{img_left}{indexpic/wqh.jpg}{alt text}{150}{180}{http://qinghew.github.io}
-I am a second year PhD student at the IIAU-Lab in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (卢湖川)] and [https://stephenjia.github.io/ Xu Jia (贾旭)]. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu (朱鹏飞)] and [https://bcaosudo.github.io/ Bing Cao (曹兵)]. I obtained my Bachelor's degree from Dalian Maritime University. My research focuses on Video\/Image generation with Diffusion models\/GANs.
+I am a second year PhD student at the IIAU-Lab in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (IEEE Fellow)] and [https://stephenjia.github.io/ Xu Jia]. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu] and [https://bcaosudo.github.io/ Bing Cao]. I obtained my Bachelor's degree from Dalian Maritime University. My research focuses on Video\/Image generation with Diffusion models\/GANs.
 
 E-mail: aitwqh@163.com \n
 
@@ -59,7 +59,7 @@ Topic: Image Generation
 ~~~
 {}{video_left}{indexpic\sdid_video.mp4}{alt text}{400}{230}{indexpic\sdid_video.mp4}
 \[*TMM 2025* \<span style=\"color: blue\"\> CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>🔥 StableIdentity: Inserting Anybody into Anywhere at First Sight
-</u>}} \n *Qinghe Wang*, Xu Jia✉, Xiaomin Li, Taiqing Li, Liqian Ma, Yunzhi Zhuge, Huchuan Lu. \n \[[https://arxiv.org/abs/2401.15975 Paper]\] \[[https://qinghew.github.io/StableIdentity/ Project]\] \[[https://github.com/qinghew/StableIdentity Code]\] \[[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]\] \[[https://mp.weixin.qq.com/s/KrFruefIGnMOUZCGMTFE9Q 极市平台报道，CVer转载]\]
+</u>}} \n *Qinghe Wang*, Xu Jia✉, Xiaomin Li, Taiqing Li, Liqian Ma, Yunzhi Zhuge, Huchuan Lu. \n \[[https://arxiv.org/abs/2401.15975 Paper]\] \[[https://qinghew.github.io/StableIdentity/ Project]\] \[[https://github.com/qinghew/StableIdentity Code]\] \[[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]\]
 ~~~
 
 
@@ -84,20 +84,20 @@ Topic: Image Generation
 
 
 == Service
-I serve as a reviewer of: TPAMI, TIP, TNNLS, TCSVT, ICLR, ACM MM, ICME, MIR, etc.
+I serve as a reviewer for TPAMI, TIP, TNNLS, TCSVT, ICLR, ACM MM, ICME, MIR, etc.
 
 
 == Awards
 - *Outstanding Master's Thesis of Tianjin University 2023*\n
-- Gold Award of Huawei Ascend AI Innovation Competition 2023\n
-- Third Prize of “Huawei Cup” - the 18th China Postgraduate Mathematical Contest in Modeling 2020\n
+- {{<u>Gold Award of Huawei Ascend AI Innovation Competition 2023</u>}}\n
+- {{<u>Third Prize of "Huawei Cup" - the 18th China Postgraduate Mathematical Contest in Modeling 2020</u>}}\n
 - *Outstanding Graduates from Liaoning Province 2020*\n
-- First prize (1st place) of the software competition in Rockwell Automation Dalian Software R&D Center 2019\n
-- Third Prize of Chinese College Students Computer Design Contest	2019\n
-- Honorable Mention of The Mathematical Contest in Modeling (MCM) 2019\n
-- Provincial second prize of “NXP” Cup National University Students Intelligent Car Race Competition 2019\n
-- Third Prize of iCAN International Contest of innovation 2018\n
-- Meritorious Winner of The Mathematical Contest in Modeling (MCM) 2018\n
-- Provincial second prize of “TI” Cup Liaoning Provincial Undergraduate Electronic Design Contest 2018\n
-- Provincial second prize of “NXP” Cup National University Students Intelligent Car Race Competition 2018\n
+- {{<u>First prize (1st place) of the software competition in Rockwell Automation Dalian Software R&D Center 2019</u>}}\n
+- {{<u>Third Prize of Chinese College Students Computer Design Contest 2019</u>}}\n
+- {{<u>Honorable Mention of The Mathematical Contest in Modeling (MCM) 2019</u>}}\n
+- Provincial second prize of "NXP" Cup National University Students Intelligent Car Race Competition 2019\n
+- {{<u>Third Prize of iCAN International Contest of innovation 2018</u>}}\n
+- {{<u>Meritorious Winner of The Mathematical Contest in Modeling (MCM) 2018</u>}}\n
+- Provincial second prize of "TI" Cup Liaoning Provincial Undergraduate Electronic Design Contest 2018\n
+- Provincial second prize of "NXP" Cup National University Students Intelligent Car Race Competition 2018\n
 - Provincial second prize of National Undergraduate Electronics Design Contest 2017\n
