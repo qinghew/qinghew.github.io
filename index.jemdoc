@@ -87,7 +87,7 @@ A framework enables identity-consistent generation with just one face image, and
 
 
 ~~~
-{}{img_left}{indexpic/hs_diffusion.png}{alt text}{400}{160}{indexpic/hs_diffusion.png}
+{}{img_left}{indexpic/hs_diffusion.png}{alt text}{400}{280}{indexpic/hs_diffusion.png}
 \[*Arxiv 2023*]~~\n{{<u>HS-Diffusion: Semantic-Mixing Diffusion for Head Swapping
 </u>}} \n *Qinghe Wang*, Lijie Liu, Miao Hua, Pengfei Zhu, Wangmeng Zuo, Qinghua Hu, Huchuan Lu, Bing Cao✉. \n \[[https://arxiv.org/abs/2212.06458 Paper]\] \[[https://github.com/qinghew/HS-Diffusion Code]\] \n\n
 A framework enables seamless head swapping, preserving both head and body details while generating natural transition regions.
