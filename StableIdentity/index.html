@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Inserting anybody's identity into anywhere for customized image/video/3d generation.">
+  <meta name="keywords" content="StableIdentity, customization, identity">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StableIdentity: Inserting Anybody into Anywhere at First Sight</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/dut.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <!-- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
+  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">StableIdentity: Inserting Anybody into Anywhere at First Sight</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://qinghew.github.io">Qinghe Wang</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://stephenjia.github.io">Xu Jia*</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href=>Xiaomin Li</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href=>Taiqing Li</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://charliememory.github.io">Liqian Ma</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.semanticscholar.org/author/Yunzhi-Zhuge/2936850/">Yunzhi Zhuge</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN&oi=sra">Huchuan Lu</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Dalian University of Technology,</span>
+            <span class="author-block"><sup>2</sup>ZMO AI Inc.</span>
+          </div>
+          <div class="is-size-10 corresponding-author">
+            <span class="author-block">* Corresponding Author</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2401.15975"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>TMM 2025</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/qinghew/StableIdentity"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/images/teaser.svg"
+                type="video/mp4">
+      </video> -->      
+      <img src="./static/images/first_image.svg"
+                alt="Inserting anybody's identity into anywhere for customized image/video/3d generation."/>
+      <h2 class="content has-text-centered">
+        Given a single input image, the proposed StableIdentity 
+        can generate diverse customized images in various contexts. 
+        Notably, we present the learned identity combined with 
+        <a href="https://github.com/lllyasviel/ControlNet">ControlNet</a>
+        and even injected into video (<a href="https://arxiv.org/abs/2308.06571">ModelScopeT2V</a>) 
+        and 3D (<a href="https://github.com/EnVision-Research/LucidDreamer">LucidDreamer</a>) generation.
+        We omit the placeholders \(v^*_1~v^*_2\) of prompts such as "\(v^*_1~v^*_2\) wearing glasses" for brevity.
+      </h2>
+      <div id="results-carousel" class="carousel results-carousel" style="width: 87%;">
+        <div class="item has-text-centered">
+          <p class="caption global-prompt">"eating a burger"</p>
+          <video poster="" id="burger1" autoplay controls muted loop playsinline style="width: 100%; height: 100%;">
+            <source src="./static/videos/video1/burger1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item has-text-centered">
+          <p class="caption global-prompt">"eating a burger"</p>
+          <video poster="" id="burger2" autoplay controls muted loop playsinline style="width: 100%; height: 100%;">
+            <source src="./static/videos/video1/burger2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>                
+        <div class="item has-text-centered">
+          <p class="caption global-prompt">"\(v^*_1~v^*_2\)"</p>
+          <video poster="" id="woman" autoplay controls muted loop playsinline style="width: 100%; height: 100%;">
+            <source src="./static/videos/video1/woman.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item has-text-centered">
+          <p class="caption global-prompt">"wearing a golden crown"</p>
+          <video poster="" id="golden_crown" autoplay controls muted loop playsinline style="width: 100%; height: 100%;">
+            <source src="./static/videos/video1/golden_crown.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item has-text-centered">
+          <p class="caption global-prompt">"putting on makeup"</p>
+          <video poster="" id="makeup1" autoplay controls muted loop playsinline style="width: 100%; height: 100%;">
+            <source src="./static/videos/video1/makeup1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item has-text-centered">
+          <p class="caption global-prompt">"putting on makeup"</p>
+          <video poster="" id="makeup2" autoplay controls muted loop playsinline style="width: 100%; height: 100%;">
+            <source src="./static/videos/video1/makeup2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>        
+        <div class="item has-text-centered">
+          <p class="caption global-prompt">"as oil painting"</p>
+          <video poster="" id="oil_painting" autoplay controls muted loop playsinline style="width: 100%; height: 100%;">
+            <source src="./static/videos/video1/oil_painting.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item has-text-centered">
+          <p class="caption global-prompt">"wearing a hat in comic style"</p>
+          <video poster="" id="hat_comic" autoplay controls muted loop playsinline style="width: 100%; height: 100%;">
+            <source src="./static/videos/video1/hat_comic.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent advances in large pretrained text-to-image models 
+            have shown unprecedented capabilities for high-quality human-centric generation, 
+            however, customizing face identity is still an intractable problem. 
+            Existing methods cannot ensure stable identity preservation and flexible editability, 
+            even with several images for each subject during training. 
+            In this work, we propose StableIdentity, which allows identity-consistent recontextualization 
+            with just one face image. More specifically, we employ a face encoder with an identity prior 
+            to encode the input face, and then land the face representation into a space with an editable prior, 
+            which is constructed from celeb names. By incorporating identity prior and editability prior, 
+            the learned identity can be injected anywhere with various contexts. 
+            In addition, we design a masked two-phase diffusion loss to 
+            boost the pixel-level perception of the input face and maintain the diversity of generation. 
+            Extensive experiments demonstrate our method outperforms previous customization methods. 
+            In addition, the learned identity can be flexibly combined with the off-the-shelf modules such as ControlNet. 
+            Notably, to the best knowledge, we are the first to directly inject the identity 
+            learned from a single image into video/3D generation without finetuning. 
+            We believe that the proposed StableIdentity is an important step to unify image, 
+            video, and 3D customized generation models.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Method. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Method</h2>
+        <figure>
+          <img src="./static/images/framework.svg" width=100%/>
+        </figure>
+        <div class="content has-text-justified">
+          <p>
+            Overview of the proposed StableIdentity. 
+            Given a single face image, we first employ a FR-ViT encoder and MLPs to 
+            capture identity representation, and then land it into our constructed celeb embedding space 
+            to master identity-consistent editability. In addition, we design a masked 
+            two-phase diffusion loss including \(\mathcal{L}_{noise}\) and \(\mathcal{L}_{rec}\) for training.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Method. -->
+
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Applications</h2>
+
+        <!-- context. -->
+        <h3 class="title is-4">Recontextualization</h3>
+        <div class="content has-text-justified">
+          <p>
+            Generated results with the proposed StableIdentity for different identities (including various races) 
+            under various contexts (covering decoration, action, attribute).
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <img src="./static/images/context.svg"
+                 alt="Interpolate start reference image."/>
+        </div>
+        <br/>
+        <!--/ context. -->
+
+        <!-- style. -->
+        <h3 class="title is-4">Stylization</h3>
+        <div class="content has-text-justified">
+          <p>
+            Additional customized results with StableIdentity for diverse artistic styles.
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <img src="./static/images/style.svg"
+                 alt="Interpolate start reference image."/>
+        </div>
+        <br/>
+        <!--/ style. -->
+        
+        <!-- StableIdentity \& Image/Video/3D Models.. -->
+        <h3 class="title is-4">StableIdentity & Image/Video/3D Models</h3>
+        <!-- controlnet video results -->
+        <div class="content has-text-justified">
+          <p>
+            1. Pose-controlled customized <b>image</b> generation (StableIdentity & ControlNet) and 
+            zero-shot identity-driven customized <b><span style="color: rgb(255, 0, 170);">video</span></b> generation (StableIdentity & ModelScopeT2V).
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <img src="./static/images/controlnet_video.svg"
+                 alt="Interpolate start reference image."/>
+        </div>
+        <table width="100%" align="center">
+          <tr></tr>
+          <tr>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video2/driving.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video2/shaving.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video2/phone.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video2/apple.mp4" type="video/mp4"></video></td>
+          </tr>
+          <tr>
+            <td width=25%></td>
+            <td width=25%></td>
+            <td width=25%></td>
+            <td width=25%></td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <!-- 3d results -->
+        <div class="content has-text-justified">
+          <p>
+            2. Zero-shot identity-driven customized <b><span style="color: rgb(255, 0, 170);">3D</span></b> generation (StableIdentity & LucidDreamer). 
+            Here, we use "\(v^*_1~v^*_2\)" as the input prompt to show the 3D reconstruction for the learned identities.
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <img src="./static/images/3d.svg"
+                 alt="Interpolate start reference image."/>
+        </div>
+        <table width="100%" align="center">
+          <tr></tr>
+          <tr>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video3/skinhead.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video3/glass.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video3/comic.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video3/brick.mp4" type="video/mp4"></video></td>
+          </tr>
+          <tr>
+            <td width=25%></td>
+            <td width=25%></td>
+            <td width=25%></td>
+            <td width=25%></td>
+          </tr>
+        </table>   
+        <table width="100%" align="center">
+          <tr></tr>
+          <tr>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video3/old_rec.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video3/oldstyle.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video3/crown.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video3/style.mp4" type="video/mp4"></video></td>
+          </tr>
+          <tr>
+            <td width=25%></td>
+            <td width=25%></td>
+            <td width=25%></td>
+            <td width=25%></td>
+          </tr>
+        </table>   
+        <br>
+        <br>        
+        <!-- celeb photos input -->
+        <div class="content has-text-justified">
+          <p>
+            3. More image/video/3D customized generation results for <b>celeb photos</b> as input.
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <img src="./static/images/celeb_img.svg"
+                 alt="Interpolate start reference image."/>
+        </div>
+        <table width="100%" align="center">
+          <tr></tr>
+          <tr>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video4/with_sunglasses_driving.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video4/wearing_hat1.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video4/wearing headphones, and eyeglasses.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video4/v1v2.mp4" type="video/mp4"></video></td>
+          </tr>
+          <tr>
+            <td width=25%></td>
+            <td width=25%></td>
+            <td width=25%></td>
+            <td width=25%></td>
+          </tr>
+        </table>           
+        <table width="100%" align="center">
+          <tr></tr>
+          <tr>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video4/drinking water.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video4/brick.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video4/wiping_face.mp4" type="video/mp4"></video></td>
+            <td><video autoplay controls muted loop playsinline width="100%"><source src="static/videos/video4/comic_celeb.mp4" type="video/mp4"></video></td>
+          </tr>
+          <tr>
+            <td width=25%></td>
+            <td width=25%></td>
+            <td width=25%></td>
+            <td width=25%></td>
+          </tr>
+        </table>   
+
+        <br/>
+        <!--/ StableIdentity \& Image/Video/3D Models.. -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{wang2024stableidentity,
+  title={StableIdentity: Inserting Anybody into Anywhere at First Sight},
+  author={Wang, Qinghe and Jia, Xu and Li, Xiaomin and Li, Taiqing and Ma, Liqian and Zhuge, Yunzhi and Lu, Huchuan},
+  journal={arXiv preprint arXiv:2401.15975},
+  year={2024}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            The website code is borrowed from the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. We thank the authors for sharing the templates.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Sampling Consistent Characters with GANs for Diffusion Models.">
+  <meta name="keywords" content="CharacterFactory, GANs, Diffusion Models">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/dut.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <!-- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
+  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://qinghew.github.io">Qinghe Wang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://libaolu312.github.io/">Baolu Li</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href=>Xiaomin Li</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://bcaosudo.github.io">Bing Cao</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://charliememory.github.io">Liqian Ma</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN&oi=sra">Huchuan Lu</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://stephenjia.github.io">Xu Jia*</a><sup>1</sup>
+            </span>            
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Dalian University of Technology,</span>
+            <span class="author-block"><sup>2</sup>Tianjin University,</span>
+            <span class="author-block"><sup>3</sup>ZMO AI Inc.</span>
+          </div>
+          <div class="is-size-10 corresponding-author">
+            <span class="author-block">* Corresponding Author</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://huggingface.co/spaces/DecoderWQH666/CharacterFactory"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <!-- <span class="icon">
+                      <i class="fas fa-brain"></i>
+                  </span> -->
+                  <span>🤗Gradio Demo</span>
+                </a>
+              </span>              
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2404.15677"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>TIP 2025</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/qinghew/CharacterFactory"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (has been released)</span>
+                  </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/images/teaser.svg"
+                type="video/mp4">
+      </video> -->      
+      <img src="./static/images/teaser.svg">
+      <h2 class="content has-text-centered">
+        CharacterFactory can create infinite new characters end-to-end 
+        for identity-consistent generation with diverse text prompts. 
+        Notably, it can be seamlessly combined with <a href="https://github.com/lllyasviel/ControlNet">ControlNet</a> (image), 
+        <a href="https://arxiv.org/abs/2308.06571">ModelScopeT2V</a> (video) 
+        and <a href="https://github.com/EnVision-Research/LucidDreamer">LucidDreamer</a> (3D).
+        We omit the placeholders \(s^*_1~s^*_2\) of prompts such as "a photo of \(s^*_1~s^*_2\)" for brevity.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent advances in text-to-image models have opened new frontiers in human-centric generation. 
+            However, these models cannot be directly employed to generate images with consistent newly coined identities. 
+            In this work, we propose CharacterFactory, a framework that allows sampling new characters 
+            with consistent identities in the latent space of GANs for diffusion models. 
+            More specifically, we consider the word embeddings of celeb names as ground truths 
+            for the identity-consistent generation task and train a GAN model to learn the mapping 
+            from a latent space to the celeb embedding space. In addition, we design a context-consistent 
+            loss to ensure that the generated identity embeddings can produce identity-consistent 
+            images in various contexts. Remarkably, the whole model only takes 10 minutes for training, 
+            and can sample infinite characters end-to-end during inference. Extensive experiments 
+            demonstrate excellent performance of the proposed CharacterFactory on character creation 
+            in terms of identity consistency and editability. Furthermore, the generated characters 
+            can be seamlessly combined with the off-the-shelf image/video/3D diffusion models. 
+            We believe that the proposed CharacterFactory is an important step for identity-consistent character generation.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Method. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Method</h2>
+        <figure>
+          <img src="./static/images/CharacterFactory_framework.svg" width=100%/>
+        </figure>
+        <div class="content has-text-justified">
+          <p>
+            Overview of the proposed CharacterFactory. 
+            (a) We take the word embeddings of celeb names as ground truths
+             for identity-consistent generation and train a GAN model 
+             constructed by MLPs to learn the mapping from $z$ to celeb embedding space. 
+             In addition, a context-consistent loss is designed to ensure that 
+             the generated pseudo identity can exhibit consistency in various contexts. 
+             \(s^*_1~s^*_2\) are placeholders for \(v^*_1~v^*_2\). 
+             (b) Without diffusion models involved in training, 
+             IDE-GAN can end-to-end generate embeddings that can be seamlessly 
+             inserted into diffusion models to achieve identity-consistent generation.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Method. -->
+
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Experiments</h2>
+
+        <!-- context. -->
+        <h3 class="title is-4">Creating New Characters</h3>
+        <div class="content has-text-justified">
+          <p>
+            More identity-consistent character generation results by the proposed CharacterFactory.
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <img src="./static/images/supp_teaser_column.svg"
+                 alt="Interpolate start reference image."/>
+        </div>
+        <br/>
+        <!--/ context. -->
+
+        <!-- context. -->
+        <h3 class="title is-4">Story Illustration</h3>
+        <div class="content has-text-justified">
+          <p>
+            The proposed CharacterFactory can illustrate a story with the same character. 
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel" style="display: flex; justify-content: center; align-items: center; background-color: transparent !important;">
+          <img src="./static/images/story.png" width=80%/>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            We provide more identity-consistent illustrations for a longer continuous story 
+            to further demonstrate the availability of this application.
+          </p>
+        </div>        
+        <div class="columns is-vcentered interpolation-panel" style="display: flex; justify-content: center; align-items: center; background-color: transparent !important;">
+          <img src="./static/images/long_story.png" width=80%/>
+        </div>        
+        <br/>
+        <!--/ context. -->
+
+        <!-- style. -->
+        <h3 class="title is-4">Interpolation Property of IDE-GAN</h3>
+        <div class="content has-text-justified">
+          <p>
+            We conduct linear interpolation between randomly sampled "\(z_1\)" and "\(z_2\)", 
+            and generate pseudo identity embeddings with IDE-GAN. 
+            To visualize the smooth variations in image space, 
+            we insert the generated embeddings into Stable Diffusion 
+            via the pipeline of Figure 2(b). The experiments in row 1, 3 are conducted with the same seeds, 
+            and row 2, 4 use random seeds.
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <img src="./static/images/id_interpolation.svg"
+                 alt="Interpolate start reference image."/>
+        </div>
+        <br/>
+        <!--/ style. -->
+        
+        <!-- CharacterFactory \& Image/Video/3D Models.. -->
+        <h3 class="title is-4">CharacterFactory & Image/Video/3D Models</h3>
+        <!-- controlnet video results -->
+        <div class="content has-text-justified">
+          <p>
+            More identity-consistent <b><span style="color: rgb(255, 0, 170);">Image/Video/3D</span></b> generation results by 
+            the proposed CharacterFactory with ControlNet, ModelScopeT2V and LucidDreamer.
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <img src="./static/images/supp_video_3d.svg"
+                 alt="Interpolate start reference image."/>
+        </div>  
+        <br/>
+        <!--/ CharacterFactory \& Image/Video/3D Models.. -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{wang2025characterfactory,
+  title={Characterfactory: Sampling consistent characters with gans for diffusion models},
+  author={Wang, Qinghe and Li, Baolu and Li, Xiaomin and Cao, Bing and Ma, Liqian and Lu, Huchuan and Jia, Xu},
+  journal={IEEE Transactions on Image Processing},
+  year={2025},
+  publisher={IEEE}
+}
+</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            The website code is borrowed from the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. We thank the authors for sharing the templates.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
