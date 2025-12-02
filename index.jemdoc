@@ -1,5 +1,5 @@
 # jemdoc: nofooter,title{Qinghe Wang（王清和）| Dalian University of Technology（大连理工大学）}
-==Qinghe Wang(王清和)
+==Qinghe Wang (王清和)
 
 ~~~
 {}{img_left}{indexpic/wqh.jpg}{alt text}{150}{180}{http://qinghew.github.io}
@@ -11,19 +11,21 @@ E-mail: aitwqh@163.com \n
 ~~~
 
 == News!
+\[2025\/12\]~~Release paper \"[https://qinghew.github.io/MultiShotMaster/ {{MultiShotMaster: A Controllable Multi-Shot Video Generation Framework}}]\". \n
+\[2025\/10\]~~Release paper \"[https://libaolu312.github.io/VFXMaster/ {{VFXMaster: Unlocking Dynamic Visual Effect Generation via In-Context Learning}}]\". \n
 \[2025\/2\]~~Release paper \"[https://arxiv.org/abs/2502.08639 {{CineMaster: A 3D-Aware and Controllable Framework for Cinematic Text-to-Video Generation}}]\". \n
 \[2024\/5\]~~Release a [https://huggingface.co/spaces/DecoderWQH666/CharacterFactory *Gradio Demo*] of \"{{CharacterFactory}}\". Welcome to play! \n
 \[2024\/5\]~~Release all the [https://github.com/qinghew/CharacterFactory *Codes*] of \"{{CharacterFactory}}\". Welcome to use! \n
-\[2024\/4\]~~Release paper \"[https://arxiv.org/abs/2404.15677 {{CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models}}]\". \n
+\[2024\/4\]~~Release paper \"[https://qinghew.github.io/CharacterFactory {{CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models}}]\". \n
 \[2024\/3\]~~Release all the [https://github.com/qinghew/StableIdentity *Codes*] of \"{{StableIdentity}}\". Welcome to use! \n
-\[2024\/1\]~~Release paper \"[https://arxiv.org/abs/2401.15975 {{StableIdentity: Inserting Anybody into Anywhere at First Sight}}]\", [[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]. \n
+\[2024\/1\]~~Release paper \"[https://qinghew.github.io/StableIdentity {{StableIdentity: Inserting Anybody into Anywhere at First Sight}}]\", [[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]. \n
 
 
 == Internships
 ~~~
 {}{img_left}{indexpic\kuaishou.png}{alt text}{200}{40}{indexpic\kuaishou.png}
 *Kuaishou*\n
-2024.7\~Now Research Intern in Kuaishou Visual Generation and Interaction Center (Shenzhen)~~\n
+2024.7\~Now Research Intern in Kling Team, Kuaishou Technology (Shenzhen)~~\n
 Supervisors: [https://xiaoyushi97.github.io/ Xiaoyu Shi], [https://xinntao.github.io/ Xintao Wang] \n
 Topic: Video Generation
 ~~~
@@ -41,44 +43,68 @@ Topic: Image Generation
 
 == Selected Publications
 ~~~
-{}{video_left}{indexpic\cinemaster-teaser.mp4}{alt text}{400}{240}{indexpic\cinemaster-teaser.mp4}
-\[*SIGGRAPH 2025* \<span style=\"color: blue\"\> CCF A\<\/span\>\]~~\n{{<u>🔥 CineMaster: A 3D-Aware and Controllable Framework for Cinematic Text-to-Video Generation
-</u>}} \n *Qinghe Wang*\*, Yawen Luo\*, Xiaoyu Shi✉, Xu Jia✉, Huchuan Lu, Tianfan Xue✉, Xintao Wang, Pengfei Wan, Di Zhang, Kun Gai. \n \[[https://arxiv.org/abs/2502.08639 Paper]\] \[[https://cinemaster-dev.github.io/ Project]\]
+{}{gif_left}{indexpic\multishotmaster.gif}{alt text}{400}{280}{indexpic\multishotmaster.gif}
+\[*Arxiv 2025*]~~\n{{<u>MultiShotMaster: A Controllable Multi-Shot Video Generation Framework
+</u>}} \n Qinghe Wang, Xiaoyu Shi✉, Baolu Li, Weikang Bian, Quande Liu, Huchuan Lu, Xintao Wang, Pengfei Wan, Kun Gai, Xu Jia✉ \n \[[https://arxiv.org/abs/2512.xxx Paper]\] \[[https://qinghew.github.io/MultiShotMaster/ Project Page]\] \[Code (working)] \n\n
+The first controllable multi-shot video generation framework that supports text-driven inter-shot consistency, customized subject with motion control, and background-driven customized scene. Both shot counts and shot durations are variable. 
+~~~
+
+
+
+~~~
+{}{gif_left}{indexpic\vfxmaster.gif}{alt text}{400}{220}{indexpic\vfxmaster.gif}
+\[*Arxiv 2025*]~~\n{{<u>VFXMaster: Unlocking Dynamic Visual Effect Generation via In-Context Learning
+</u>}} \n Baolu Li\*, Yiming Zhang\*, *Qinghe Wang*\*(Project Lead), Liqian Ma✉, Xiaoyu Shi, Xintao Wang, Pengfei Wan, Zhenfei Yin, Yunzhi Zhuge, Huchuan Lu, Xu Jia✉ \n \[[https://arxiv.org/abs/2510.25772 Paper]\] \[[https://libaolu312.github.io/VFXMaster/ Project Page]\] \n\n
+A unified reference-based VFX video generation framework allows users to reproduce diverse dynamic effects from reference videos onto target content.
+~~~
+
+
+
+~~~
+{}{gif_left}{indexpic\cinemaster-teaser.gif}{alt text}{400}{240}{indexpic\cinemaster-teaser.gif}
+\[*SIGGRAPH 2025* \<span style=\"color: blue\"\> CCF A\<\/span\>\]~~\n{{<u>CineMaster: A 3D-Aware and Controllable Framework for Cinematic Text-to-Video Generation
+</u>}} \n *Qinghe Wang*\*, Yawen Luo\*, Xiaoyu Shi✉, Xu Jia✉, Huchuan Lu, Tianfan Xue✉, Xintao Wang, Pengfei Wan, Di Zhang, Kun Gai. \n \[[https://arxiv.org/abs/2502.08639 Paper]\] \[[https://cinemaster-dev.github.io/ Project Page]\] \n\n
+A 3D-aware and controllable text-to-video generation method allows users to manipulate objects and camera jointly in 3D space for high-quality cinematic video creation.
 ~~~
 
 
 
 ~~~
 {}{img_left}{CharacterFactory\static\images\teaser.svg}{alt text}{400}{240}{CharacterFactory\static\images\teaser.svg}
-\[*TIP 2025* \<span style=\"color: blue\"\> CAS-JCR Q1 Top; CCF A\<\/span\>\]~~\n{{<u>🔥 CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models
-</u>}} \n *Qinghe Wang*, Baolu Li, Xiaomin Li, Bing Cao, Liqian Ma, Huchuan Lu, Xu Jia✉. \n \[[https://huggingface.co/spaces/DecoderWQH666/CharacterFactory *Gradio Demo*]\] \[[https://arxiv.org/abs/2404.15677 Paper]\] \[[https://qinghew.github.io/CharacterFactory/ Project]\] \[[https://github.com/qinghew/CharacterFactory Code]\]
+\[*TIP 2025* \<span style=\"color: blue\"\> CAS-JCR Q1 Top; CCF A\<\/span\>\]~~\n{{<u>CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models
+</u>}} \n *Qinghe Wang*, Baolu Li, Xiaomin Li, Bing Cao, Liqian Ma, Huchuan Lu, Xu Jia✉. \n \[[https://huggingface.co/spaces/DecoderWQH666/CharacterFactory *Gradio Demo*]\] \[[https://arxiv.org/abs/2404.15677 Paper]\] \[[https://qinghew.github.io/CharacterFactory/ Project Page]\] \[[https://github.com/qinghew/CharacterFactory Code]\] \n\n
+An end-to-end framework allows users to sample new characters with consistent identities for new character creation.
 ~~~
 
 
 
 ~~~
-{}{video_left}{indexpic\sdid_video.mp4}{alt text}{400}{230}{indexpic\sdid_video.mp4}
-\[*TMM 2025* \<span style=\"color: blue\"\> CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>🔥 StableIdentity: Inserting Anybody into Anywhere at First Sight
-</u>}} \n *Qinghe Wang*, Xu Jia✉, Xiaomin Li, Taiqing Li, Liqian Ma, Yunzhi Zhuge, Huchuan Lu. \n \[[https://arxiv.org/abs/2401.15975 Paper]\] \[[https://qinghew.github.io/StableIdentity/ Project]\] \[[https://github.com/qinghew/StableIdentity Code]\] \[[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]\]
+{}{gif_left}{indexpic\sdid_video.gif}{alt text}{400}{210}{indexpic\sdid_video.gif}
+\[*TMM 2025* \<span style=\"color: blue\"\> CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>StableIdentity: Inserting Anybody into Anywhere at First Sight
+</u>}} \n *Qinghe Wang*, Xu Jia✉, Xiaomin Li, Taiqing Li, Liqian Ma, Yunzhi Zhuge, Huchuan Lu. \n \[[https://arxiv.org/abs/2401.15975 Paper]\] \[[https://qinghew.github.io/StableIdentity/ Project Page]\] \[[https://github.com/qinghew/StableIdentity Code]\] \[[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]\] \n\n 
+A framework enables identity-consistent generation with just one face image, and seamless integration with video/3D generation without finetuning.
 ~~~
 
 
 ~~~
 {}{img_left}{indexpic/hs_diffusion.png}{alt text}{400}{160}{indexpic/hs_diffusion.png}
 \[*Arxiv 2023*]~~\n{{<u>HS-Diffusion: Semantic-Mixing Diffusion for Head Swapping
-</u>}} \n *Qinghe Wang*, Lijie Liu, Miao Hua, Pengfei Zhu, Wangmeng Zuo, Qinghua Hu, Huchuan Lu, Bing Cao✉. \n \[[https://arxiv.org/abs/2212.06458 Paper]\] \[[https://github.com/qinghew/HS-Diffusion Code]\]
+</u>}} \n *Qinghe Wang*, Lijie Liu, Miao Hua, Pengfei Zhu, Wangmeng Zuo, Qinghua Hu, Huchuan Lu, Bing Cao✉. \n \[[https://arxiv.org/abs/2212.06458 Paper]\] \[[https://github.com/qinghew/HS-Diffusion Code]\] \n\n
+A framework enables seamless head swapping, preserving both head and body details while generating natural transition regions.
 ~~~
 
 
 ~~~
 {}{img_left}{indexpic/mvke.png}{alt text}{400}{220}{indexpic/mvke.png}
-\[*TNNLS 2023* \<span style=\"color: blue\"\> CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>Multi-view knowledge ensemble with frequency consistency for cross-domain face translation</u>}} \n Bing Cao, *Qinghe Wang*, Pengfei Zhu✉, Qinghua Hu, Dongwei Ren, Wangmeng Zuo, Xinbo Gao. \n \[[https://ieeexplore.ieee.org/abstract/document/10021294 Paper]\] \[[https://github.com/qinghew/MvKE-FC Code]\]
+\[*TNNLS 2023* \<span style=\"color: blue\"\> CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>Multi-view knowledge ensemble with frequency consistency for cross-domain face translation</u>}} \n Bing Cao, *Qinghe Wang*, Pengfei Zhu✉, Qinghua Hu, Dongwei Ren, Wangmeng Zuo, Xinbo Gao. \n \[[https://ieeexplore.ieee.org/abstract/document/10021294 Paper]\] \[[https://github.com/qinghew/MvKE-FC Code]\] \n\n 
+A framework enables cross-domain face translation with structural and identity preservation.
 ~~~
 
 
 ~~~
 {}{img_left}{indexpic/scgan.png}{alt text}{400}{180}{indexpic/scgan.png}
-\[*中国科学：信息科学* \<span style=\"color: blue\"\>CCF A类中文期刊\<\/span\>\]~~\n{{<u>基于自判别循环生成对抗网络的人脸图像翻译</u>}} \n 中国科学：信息科学 (2022). \n *王清和*, 曹兵✉, 朱鹏飞, 王楠楠, 胡清华, 高新波. \n \[[https://www.sciengine.com/SSI/doi/10.1360/SSI-2021-0321 Paper]\] \[[https://github.com/qinghew/SDGAN Code]\]
+\[*中国科学：信息科学* \<span style=\"color: blue\"\>CCF A类中文期刊\<\/span\>\]~~\n{{<u>基于自判别循环生成对抗网络的人脸图像翻译</u>}} (Nickname: CycleGAN\-\-) \n 中国科学：信息科学 (2022). \n *王清和*, 曹兵✉, 朱鹏飞, 王楠楠, 胡清华, 高新波. \n \[[https://www.sciengine.com/SSI/doi/10.1360/SSI-2021-0321 Paper]\] \[[https://github.com/qinghew/SDGAN Code]\] \n\n 
+A framework enables cross-domain face translation by integrating two the discriminators into two encoders.
 ~~~
 
 

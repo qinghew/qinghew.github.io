@@ -606,7 +606,44 @@ def replaceimages(b):
 
     m = r.search(b, m.start())
 
+  r = re.compile(r'(?<!\\)\[gif((?:\{.*?\}){,3})\s(.*?)(?:\s(.*?))?(?<!\\)\]',
+           re.M + re.S)
+  m = r.search(b)
+  s = re.compile(r'{(.*?)}', re.M + re.S)
+  while m:
+    m1 = list(s.findall(m.group(1)))
+    m1 += ['']*(3 - len(m1))
+
+    bits = []
+    link = m.group(2).strip()
+    bits.append(r'src=\"%s\"' % quote(link))
+
+    if m1[0]:
+      if m1[0].isdigit():
+        s = m1[0] + 'px'
+      else:
+        s = m1[0]
+      bits.append(r'width=\"%s\"' % quote(s))
+    if m1[1]:
+      if m1[1].isdigit():
+        s = m1[1] + 'px'
+      else:
+        s = m1[1]
+      bits.append(r'height=\"%s\"' % quote(s))
+    if m1[2]:
+      bits.append(r'alt=\"%s\"' % quote(m1[2]))
+    else:
+      bits.append(r'alt=\"\"')
+
+    # GIF特有的属性
+    bits.append(r'class=\"gif-image\"')
+
+    b = b[:m.start()] + r'<img %s />' % " ".join(bits) + b[m.end():]
+
+    m = r.search(b, m.start())
+
   return b
+
 
 def replacelinks(b):
   # works with [link.html new link style].
@@ -1462,6 +1499,33 @@ def procfile(f):
             out(f.outf, '</a>')
           out(f.outf, '&nbsp;</td>\n<td align="left">')
           imgblock = True
+          
+        elif len(g) >= 4 and g[1] == 'gif_left':
+              # 处理 {}{gif_left}{source}{alttext}{width}{height}{linktarget}
+          g += ['']*(7 - len(g))
+          
+          if g[4].isdigit():
+            g[4] += 'px'
+
+          if g[5].isdigit():
+            g[5] += 'px'
+
+          out(f.outf, '<table class="imgtable"><tr><td>\n')
+          if g[6]:
+            out(f.outf, '<a href="%s">' % g[6])
+          out(f.outf, '<img src="%s"' % g[2])
+          out(f.outf, ' alt="%s"' % g[3])
+          out(f.outf, ' class="gif-image"')  # 添加GIF特有的CSS类
+          if g[4]:
+            out(f.outf, ' width="%s"' % g[4])
+          if g[5]:
+            out(f.outf, ' height="%s"' % g[5])
+          out(f.outf, ' />')
+          if g[6]:
+            out(f.outf, '</a>')
+          out(f.outf, '&nbsp;</td>\n<td align="left">')
+          imgblock = True          
+          
         elif len(g) >= 4 and g[1] == 'video_left':
           # handles
           # {}{video_left}{source}{alttext}{width}{height}{linktarget}
