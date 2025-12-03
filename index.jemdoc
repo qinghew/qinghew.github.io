@@ -3,7 +3,7 @@
 
 ~~~
 {}{img_left}{indexpic/wqh.jpg}{alt text}{150}{180}{http://qinghew.github.io}
-I am a second year PhD student at the IIAU-Lab in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (IEEE Fellow)] and [https://stephenjia.github.io/ Xu Jia]. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu] and [https://bcaosudo.github.io/ Bing Cao]. I obtained my Bachelor's degree from Dalian Maritime University. My research focuses on Video\/Image generation with Diffusion models\/GANs.
+I am a third-year PhD student at the IIAU-Lab in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (IEEE Fellow)] and Prof. [https://stephenjia.github.io/ Xu Jia]. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu] and Prof. [https://bcaosudo.github.io/ Bing Cao]. I obtained my Bachelor's degree from Dalian Maritime University. My research focuses on Video\/Image generation with Diffusion models\/GANs.
 
 E-mail: aitwqh@163.com \n
 
@@ -45,7 +45,7 @@ Topic: Image Generation
 ~~~
 {}{gif_left}{indexpic\multishotmaster.gif}{alt text}{400}{280}{indexpic\multishotmaster.gif}
 \[*Arxiv 2025*]~~\n{{<u>MultiShotMaster: A Controllable Multi-Shot Video Generation Framework
-</u>}} \n *Qinghe Wang*, Xiaoyu Shi✉, Baolu Li, Weikang Bian, Quande Liu, Huchuan Lu, Xintao Wang, Pengfei Wan, Kun Gai, Xu Jia✉ \n \[[https://arxiv.org/abs/2512.xxx Paper]\] \[[https://qinghew.github.io/MultiShotMaster/ Project Page]\] \[Code (working)] \n\n
+</u>}} \n *Qinghe Wang*, Xiaoyu Shi✉, Baolu Li, Weikang Bian, Quande Liu, Huchuan Lu, Xintao Wang, Pengfei Wan, Kun Gai, Xu Jia✉ \n \[[https://arxiv.org/abs/2512.03041 Paper]\] \[[https://qinghew.github.io/MultiShotMaster/ Project Page]\] \[Code (working)] \n\n
 The first controllable multi-shot video generation framework that supports text-driven inter-shot consistency, customized subject with motion control, and background-driven customized scene. Both shot counts and shot durations are variable. 
 ~~~
 
