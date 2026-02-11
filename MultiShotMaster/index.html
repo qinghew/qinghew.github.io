@@ -557,10 +557,10 @@
     }
 
     .carousel-item video {
-        width: 40%;
-        max-width: 672px;
+        width: 100%;
+        max-width: 1280px;
         height: auto; 
-        max-height: 600px; 
+        max-height: 1280px; 
     }
 
     .carousel-dots {
@@ -767,7 +767,7 @@
             </div>
             <a style="margin-top: 20px;" href="https://arxiv.org/abs/2512.03041" target="_blank" class="button">Paper</a>&emsp;
             <a style="margin-top: 20px;" href="https://github.com/KlingTeam/MultiShotMaster" target="_blank" class="button">Code</a>&emsp;
-            <a style="margin-top: 20px;" href="https://qinghew.github.io/MultiShotMaster/" target="_blank" class="button">🤗Model</a>
+            <a style="margin-top: 20px;" href="https://qinghew.github.io/MultiShotMaster/" target="_blank" class="button">🤗 Model</a>
             <!-- href="https://github.com/KlingTeam/MultiShotMaster" -->
         </header>
         <!-- <div class="media-grid">
@@ -794,186 +794,339 @@
         <br>
         
         <div class="section-title"> Video Gallery</div>
-        <div class="subsection-title"> Multi-Shot Text-to-Video Generation</div>
+        <div class="subsection-title"> Multi-Shot Text-to-Video Generation — Built on Wan Models</div>
             <div class="carousel-container">
-                <div class="carousel-wrapper" id="carouselWrapper-1"> 
+                <div class="carousel-wrapper" id="carouselWrapper-2"> 
                     <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/0.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-                
-                    
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/1.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        <div class="result-video">                    
+                            <video id="result-video" 
+                                src="assets/wan_14b_720p/2_with_caption.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 1280px;">
+                            </video>
+
+                            <div class="video-controls" style="margin-top: 10px; text-align: center;">
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_720p/2_with_caption.mp4"
+                                        data-video-width="1280px"
+                                        class="version-toggle-btn active" 
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (720p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_480p/2_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (480p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_1.3b_480p/2_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="vertical-align: middle;">
+                                    Wan2.1-T2V-1.3B (480p)
+                                </button>                                
+                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/2.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        <div class="result-video">                    
+                            <video id="result-video" 
+                                src="assets/wan_14b_720p/3_with_caption.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 1280px;">
+                            </video>
+
+                            <div class="video-controls" style="margin-top: 10px; text-align: center;">
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_720p/3_with_caption.mp4"
+                                        data-video-width="1280px"
+                                        class="version-toggle-btn active" 
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (720p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_480p/3_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (480p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_1.3b_480p/3_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="vertical-align: middle;">
+                                    Wan2.1-T2V-1.3B (480p)
+                                </button>                                
+                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/3.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        <div class="result-video">                    
+                            <video id="result-video" 
+                                src="assets/wan_14b_720p/4_with_caption.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 1280px;">
+                            </video>
+
+                            <div class="video-controls" style="margin-top: 10px; text-align: center;">
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_720p/4_with_caption.mp4"
+                                        data-video-width="1280px"
+                                        class="version-toggle-btn active" 
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (720p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_480p/4_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (480p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_1.3b_480p/4_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="vertical-align: middle;">
+                                    Wan2.1-T2V-1.3B (480p)
+                                </button>                                
+                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/4.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        <div class="result-video">                    
+                            <video id="result-video" 
+                                src="assets/wan_14b_720p/5_with_caption.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 1280px;">
+                            </video>
+
+                            <div class="video-controls" style="margin-top: 10px; text-align: center;">
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_720p/5_with_caption.mp4"
+                                        data-video-width="1280px"
+                                        class="version-toggle-btn active" 
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (720p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_480p/5_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (480p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_1.3b_480p/5_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="vertical-align: middle;">
+                                    Wan2.1-T2V-1.3B (480p)
+                                </button>                                
+                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/5.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        <div class="result-video">                    
+                            <video id="result-video" 
+                                src="assets/wan_14b_720p/6_with_caption.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 1280px;">
+                            </video>
+
+                            <div class="video-controls" style="margin-top: 10px; text-align: center;">
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_720p/6_with_caption.mp4"
+                                        data-video-width="1280px"
+                                        class="version-toggle-btn active" 
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (720p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_480p/6_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (480p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_1.3b_480p/6_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="vertical-align: middle;">
+                                    Wan2.1-T2V-1.3B (480p)
+                                </button>                                
+                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/6.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        <div class="result-video">                    
+                            <video id="result-video" 
+                                src="assets/wan_14b_720p/7_with_caption.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 1280px;">
+                            </video>
+
+                            <div class="video-controls" style="margin-top: 10px; text-align: center;">
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_720p/7_with_caption.mp4"
+                                        data-video-width="1280px"
+                                        class="version-toggle-btn active" 
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (720p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_480p/7_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (480p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_1.3b_480p/7_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="vertical-align: middle;">
+                                    Wan2.1-T2V-1.3B (480p)
+                                </button>                                
+                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/7.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        <div class="result-video">                    
+                            <video id="result-video" 
+                                src="assets/wan_14b_720p/8_with_caption.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 1280px;">
+                            </video>
+
+                            <div class="video-controls" style="margin-top: 10px; text-align: center;">
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_720p/8_with_caption.mp4"
+                                        data-video-width="1280px"
+                                        class="version-toggle-btn active" 
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (720p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_480p/8_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (480p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_1.3b_480p/8_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="vertical-align: middle;">
+                                    Wan2.1-T2V-1.3B (480p)
+                                </button>                                
+                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/8.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        <div class="result-video">                    
+                            <video id="result-video" 
+                                src="assets/wan_14b_720p/9_with_caption.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 1280px;">
+                            </video>
+
+                            <div class="video-controls" style="margin-top: 10px; text-align: center;">
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_720p/9_with_caption.mp4"
+                                        data-video-width="1280px"
+                                        class="version-toggle-btn active" 
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (720p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_480p/9_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (480p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_1.3b_480p/9_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="vertical-align: middle;">
+                                    Wan2.1-T2V-1.3B (480p)
+                                </button>                                
+                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/9.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        <div class="result-video">                    
+                            <video id="result-video" 
+                                src="assets/wan_14b_720p/10_with_caption.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 1280px;">
+                            </video>
+
+                            <div class="video-controls" style="margin-top: 10px; text-align: center;">
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_720p/10_with_caption.mp4"
+                                        data-video-width="1280px"
+                                        class="version-toggle-btn active" 
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (720p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_480p/10_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (480p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_1.3b_480p/10_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="vertical-align: middle;">
+                                    Wan2.1-T2V-1.3B (480p)
+                                </button>                                
+                            </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/10.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        <div class="result-video">                    
+                            <video id="result-video" 
+                                src="assets/wan_14b_720p/1_with_caption.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 1280px;">
+                            </video>
+
+                            <div class="video-controls" style="margin-top: 10px; text-align: center;">
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_720p/1_with_caption.mp4"
+                                        data-video-width="1280px"
+                                        class="version-toggle-btn active" 
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (720p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_14b_480p/1_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="margin-right: 10px; vertical-align: middle;">
+                                    Wan2.1-T2V-14B (480p)
+                                </button>
+                                <button data-video-id="result-video" 
+                                        data-video-src="assets/wan_1.3b_480p/1_with_caption.mp4"
+                                        data-video-width="832px"
+                                        class="version-toggle-btn"
+                                        style="vertical-align: middle;">
+                                    Wan2.1-T2V-1.3B (480p)
+                                </button>                                
+                            </div>
                         </div>
                     </div>
 
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/11.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/12.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/13.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/14.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-
-                                        
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/15.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-
-
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/16.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/17.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/18.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/19.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/20.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/21.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/22.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-                    
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/23.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="result-video">
-                            <video src="assets/text/24.mp4"
-                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
-                        </div>
-                    </div>                    
                 </div> 
                 <div class="media-grid">
                     <div class="media-item">
@@ -981,6 +1134,197 @@
                         </div>
                     </div>
                 </div>
+                <div class="carousel-nav">
+                    <button class="nav-arrow" id="prevBtn-2">&#10094;</button> 
+                    <button class="nav-arrow" id="nextBtn-2">&#10095;</button> 
+                </div>
+            </div>
+
+
+        <br>
+
+
+        <div class="subsection-title"> Multi-Shot Text-to-Video Generation (<b>384×672</b>) — Built on an internal DiT model</div>
+            <div class="carousel-container">
+                <div class="carousel-wrapper" id="carouselWrapper-1"> 
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/0.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/1.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/2.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/3.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/4.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/5.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/6.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/7.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/8.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/9.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/10.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/11.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/12.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/13.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/14.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                                        
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/15.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/16.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/17.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/18.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/19.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/20.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/21.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/22.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/23.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="result-video">
+                            <video src="assets/ours_1b_384_672_text/24.mp4"
+                                autoplay controls muted style="width: 100%; max-width: 672px;"></video>
+                        </div>
+                    </div>                    
+                </div> 
                 <div class="carousel-nav">
                     <button class="nav-arrow" id="prevBtn-1">&#10094;</button> 
                     <button class="nav-arrow" id="nextBtn-1">&#10095;</button> 
@@ -990,25 +1334,25 @@
 
         <br>
 
-        <div class="subsection-title">Multi-Shot & Multi-Reference Video Generation</div>
+        <div class="subsection-title">Multi-Shot & Multi-Reference Video Generation (384×672) — Built on an internal DiT</div>
             <div class="carousel-container">
                 <div class="carousel-wrapper" id="carouselWrapper-2"> 
 
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/2/img.jpg" style="width: 50%; max-width: 672px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/2/img.jpg" style="width: 50%; max-width: 672px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
                             <video id="video-bbox-demo" 
-                                src="assets/references/2/2_video_compressed_with_bbox.mp4"
+                                src="assets/ours_1b_384_672_references/2/2_video_with_bbox.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;">
                             </video>
                             <div class="video-controls" style="margin-top: 10px; text-align: center;">
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/2/2_video_compressed_with_bbox.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/2/2_video_with_bbox.mp4"
                                         class="version-toggle-btn" style="margin-right: 10px; vertical-align: middle;">
                                     Visualization with the input <br>sparse bbox sequences
                                 </button>
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/2/2_video_compressed.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/2/2_video.mp4"
                                         class="version-toggle-btn"
                                         style="vertical-align: middle;">
                                     Clean version
@@ -1019,19 +1363,19 @@
 
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/5/img.jpg" style="width: 100%; max-width: 900px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/5/img.jpg" style="width: 100%; max-width: 900px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
                             <video id="video-bbox-demo" 
-                                src="assets/references/5/5_video_compressed_with_bbox.mp4"
+                                src="assets/ours_1b_384_672_references/5/5_video_with_bbox.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;">
                             </video>
                             <div class="video-controls" style="margin-top: 10px; text-align: center;">
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/5/5_video_compressed_with_bbox.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/5/5_video_with_bbox.mp4"
                                         class="version-toggle-btn" style="margin-right: 10px; vertical-align: middle;">
                                     Visualization with the input <br>sparse bbox sequences
                                 </button>
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/5/5_video_compressed.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/5/5_video.mp4"
                                         class="version-toggle-btn"
                                         style="vertical-align: middle;">
                                     Clean version
@@ -1042,19 +1386,19 @@
 
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/7/img.jpg" style="width: 90%; max-width: 1100px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/7/img.jpg" style="width: 90%; max-width: 1100px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
                             <video id="video-bbox-demo" 
-                                src="assets/references/7/7_video_compressed_with_bbox.mp4"
+                                src="assets/ours_1b_384_672_references/7/7_video_with_bbox.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;">
                             </video>
                             <div class="video-controls" style="margin-top: 10px; text-align: center;">
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/7/7_video_compressed_with_bbox.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/7/7_video_with_bbox.mp4"
                                         class="version-toggle-btn" style="margin-right: 10px; vertical-align: middle;">
                                     Visualization with the input <br>sparse bbox sequences
                                 </button>
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/7/7_video_compressed.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/7/7_video.mp4"
                                         class="version-toggle-btn"
                                         style="vertical-align: middle;">
                                     Clean version
@@ -1065,19 +1409,19 @@
           
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/12/img.jpg" style="width: 25%; max-width: 672px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/12/img.jpg" style="width: 25%; max-width: 672px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
                             <video id="video-bbox-demo" 
-                                src="assets/references/12/12_video_compressed_with_bbox.mp4"
+                                src="assets/ours_1b_384_672_references/12/12_video_with_bbox.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;">
                             </video>
                             <div class="video-controls" style="margin-top: 10px; text-align: center;">
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/12/12_video_compressed_with_bbox.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/12/12_video_with_bbox.mp4"
                                         class="version-toggle-btn" style="margin-right: 10px; vertical-align: middle;">
                                     Visualization with the input <br>sparse bbox sequences
                                 </button>
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/12/12_video_compressed.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/12/12_video.mp4"
                                         class="version-toggle-btn"
                                         style="vertical-align: middle;">
                                     Clean version
@@ -1089,29 +1433,29 @@
 
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/1/img.jpg" style="width: 90%; max-width: 672px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/1/img.jpg" style="width: 90%; max-width: 672px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
-                            <video src="assets/references/1/1_video_compressed.mp4"
+                            <video src="assets/ours_1b_384_672_references/1/1_video.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;"></video>
                         </div>
                     </div>
                     
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/6/img.jpg" style="width: 30%; max-width: 672px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/6/img.jpg" style="width: 30%; max-width: 672px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
                             <video id="video-bbox-demo" 
-                                src="assets/references/6/6_video_compressed_with_bbox.mp4"
+                                src="assets/ours_1b_384_672_references/6/6_video_with_bbox.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;">
                             </video>
                             <div class="video-controls" style="margin-top: 10px; text-align: center;">
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/6/6_video_compressed_with_bbox.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/6/6_video_with_bbox.mp4"
                                         class="version-toggle-btn" style="margin-right: 10px; vertical-align: middle;">
                                     Visualization with the input <br>sparse bbox sequences
                                 </button>
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/6/6_video_compressed.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/6/6_video.mp4"
                                         class="version-toggle-btn"
                                         style="vertical-align: middle;">
                                     Clean version
@@ -1122,19 +1466,19 @@
 
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/8/img.jpg" style="width: 90%; max-width: 1000px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/8/img.jpg" style="width: 90%; max-width: 1000px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
                             <video id="video-bbox-demo" 
-                                src="assets/references/8/8_video_compressed_with_bbox.mp4"
+                                src="assets/ours_1b_384_672_references/8/8_video_with_bbox.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;">
                             </video>
                             <div class="video-controls" style="margin-top: 10px; text-align: center;">
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/8/8_video_compressed_with_bbox.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/8/8_video_with_bbox.mp4"
                                         class="version-toggle-btn" style="margin-right: 10px; vertical-align: middle;">
                                     Visualization with the input <br>sparse bbox sequences
                                 </button>
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/8/8_video_compressed.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/8/8_video.mp4"
                                         class="version-toggle-btn"
                                         style="vertical-align: middle;">
                                     Clean version
@@ -1145,19 +1489,19 @@
 
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/4/img.jpg" style="width: 30%; max-width: 672px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/4/img.jpg" style="width: 30%; max-width: 672px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
                             <video id="video-bbox-demo" 
-                                src="assets/references/4/4_video_compressed_with_bbox.mp4"
+                                src="assets/ours_1b_384_672_references/4/4_video_with_bbox.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;">
                             </video>
                             <div class="video-controls" style="margin-top: 10px; text-align: center;">
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/4/4_video_compressed_with_bbox.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/4/4_video_with_bbox.mp4"
                                         class="version-toggle-btn" style="margin-right: 10px; vertical-align: middle;">
                                     Visualization with the input <br>sparse bbox sequences
                                 </button>
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/4/4_video_compressed.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/4/4_video.mp4"
                                         class="version-toggle-btn"
                                         style="vertical-align: middle;">
                                     Clean version
@@ -1168,19 +1512,19 @@
                     
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/9/img.jpg" style="width: 21%; max-width: 672px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/9/img.jpg" style="width: 21%; max-width: 672px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
                             <video id="video-bbox-demo" 
-                                src="assets/references/9/9_video_compressed_with_bbox.mp4"
+                                src="assets/ours_1b_384_672_references/9/9_video_with_bbox.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;">
                             </video>
                             <div class="video-controls" style="margin-top: 10px; text-align: center;">
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/9/9_video_compressed_with_bbox.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/9/9_video_with_bbox.mp4"
                                         class="version-toggle-btn" style="margin-right: 10px; vertical-align: middle;">
                                     Visualization with the input <br>sparse bbox sequences
                                 </button>
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/9/9_video_compressed.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/9/9_video.mp4"
                                         class="version-toggle-btn"
                                         style="vertical-align: middle;">
                                     Clean version
@@ -1191,19 +1535,19 @@
 
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/13/img.jpg" style="width: 100%; max-width: 1150px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/13/img.jpg" style="width: 100%; max-width: 1150px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
                             <video id="video-bbox-demo" 
-                                src="assets/references/13/13_video_compressed_with_bbox.mp4"
+                                src="assets/ours_1b_384_672_references/13/13_video_with_bbox.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;">
                             </video>
                             <div class="video-controls" style="margin-top: 10px; text-align: center;">
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/13/13_video_compressed_with_bbox.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/13/13_video_with_bbox.mp4"
                                         class="version-toggle-btn" style="margin-right: 10px; vertical-align: middle;">
                                     Visualization with the input <br>sparse bbox sequences
                                 </button>
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/13/13_video_compressed.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/13/13_video.mp4"
                                         class="version-toggle-btn"
                                         style="vertical-align: middle;">
                                     Clean version
@@ -1214,19 +1558,19 @@
 
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/10/img.jpg" style="width: 25%; max-width: 672px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/10/img.jpg" style="width: 25%; max-width: 672px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
                             <video id="video-bbox-demo" 
-                                src="assets/references/10/10_video_compressed_with_bbox.mp4"
+                                src="assets/ours_1b_384_672_references/10/10_video_with_bbox.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;">
                             </video>
                             <div class="video-controls" style="margin-top: 10px; text-align: center;">
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/10/10_video_compressed_with_bbox.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/10/10_video_with_bbox.mp4"
                                         class="version-toggle-btn" style="margin-right: 10px; vertical-align: middle;">
                                     Visualization with the input <br>sparse bbox sequences
                                 </button>
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/10/10_video_compressed.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/10/10_video.mp4"
                                         class="version-toggle-btn"
                                         style="vertical-align: middle;">
                                     Clean version
@@ -1237,19 +1581,19 @@
 
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/11/img.jpg" style="width: 100%; max-width: 1000px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/11/img.jpg" style="width: 100%; max-width: 1000px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
                             <video id="video-bbox-demo" 
-                                src="assets/references/11/11_video_compressed_with_bbox.mp4"
+                                src="assets/ours_1b_384_672_references/11/11_video_with_bbox.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;">
                             </video>
                             <div class="video-controls" style="margin-top: 10px; text-align: center;">
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/11/11_video_compressed_with_bbox.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/11/11_video_with_bbox.mp4"
                                         class="version-toggle-btn" style="margin-right: 10px; vertical-align: middle;">
                                     Visualization with the input <br>sparse bbox sequences
                                 </button>
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/11/11_video_compressed.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/11/11_video.mp4"
                                         class="version-toggle-btn"
                                         style="vertical-align: middle;">
                                     Clean version
@@ -1260,19 +1604,19 @@
 
                     <div class="carousel-item">
                         <div class="result-condition">
-                            <img src="assets/references/3/img.jpg" style="width: 100%; max-width: 1100px;" alt="Condition Image 1"/>
+                            <img src="assets/ours_1b_384_672_references/3/img.jpg" style="width: 100%; max-width: 1100px;" alt="Condition Image 1"/>
                         </div>
                         <div class="result-video">
                             <video id="video-bbox-demo" 
-                                src="assets/references/3/3_video_compressed_with_bbox.mp4"
+                                src="assets/ours_1b_384_672_references/3/3_video_with_bbox.mp4"
                                 autoplay controls muted style="width: 100%; max-width: 672px;">
                             </video>
                             <div class="video-controls" style="margin-top: 10px; text-align: center;">
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/3/3_video_compressed_with_bbox.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/3/3_video_with_bbox.mp4"
                                         class="version-toggle-btn" style="margin-right: 10px; vertical-align: middle;">
                                     Visualization with the input <br>sparse bbox sequences
                                 </button>
-                                <button data-video-id="video-bbox-demo" data-video-src="assets/references/3/3_video_compressed.mp4"
+                                <button data-video-id="video-bbox-demo" data-video-src="assets/ours_1b_384_672_references/3/3_video.mp4"
                                         class="version-toggle-btn"
                                         style="vertical-align: middle;">
                                     Clean version
@@ -1631,6 +1975,63 @@
 </body>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('click', function(e) {
+        if (e.target.classList.contains('version-toggle-btn')) {
+            e.preventDefault();
+            
+            const videoId = e.target.getAttribute('data-video-id');
+            const videoSrc = e.target.getAttribute('data-video-src');
+            // 获取 HTML 中定义的宽度
+            const videoWidth = e.target.getAttribute('data-video-width');
+            
+            setVideoVersion(videoId, videoSrc, videoWidth);
+        }
+    });
+});
+
+function setVideoVersion(videoId, videoSrc, videoWidth) {
+    const carouselWrapper = document.getElementById('carouselWrapper-2');
+    const currentTransform = carouselWrapper.style.transform;
+    const translateX = currentTransform.match(/translateX\((-?\d+(?:\.\d+)?)%\)/);
+    const currentIndex = translateX ? Math.abs(parseFloat(translateX[1]) / 100) : 0;
+    
+    const allItems = carouselWrapper.querySelectorAll('.carousel-item');
+    const currentItem = allItems[Math.round(currentIndex)];
+    
+    if (currentItem) {
+        const video = currentItem.querySelector(`#${videoId}`);
+        if (video) {
+            // 1. 更新视频源
+            video.src = videoSrc;
+            
+            // 2. 关键：动态修改视频的宽度
+            // 我们同时修改 width 和 max-width 确保样式生效
+            video.style.width = "100%"; 
+            video.style.maxWidth = videoWidth; 
+            
+            video.load();
+            video.addEventListener('loadeddata', function() {
+                video.currentTime = 0;
+                video.play();
+            }, { once: true });
+            
+            // 更新按钮激活状态
+            const buttons = currentItem.querySelectorAll('.version-toggle-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.getAttribute('data-video-src') === videoSrc) {
+                    btn.classList.add('active');
+                }
+            });
+        }
+    }
+}
+</script>
+</html>
+
+
+
+<!-- document.addEventListener('DOMContentLoaded', function() {
     // 使用事件委托来处理动态内容中的按钮
     document.addEventListener('click', function(e) {
         if (e.target.classList.contains('version-toggle-btn')) {
@@ -1643,6 +2044,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
 function setVideoVersion(videoId, videoSrc) {
     console.log('Setting video:', videoId, videoSrc);
     
@@ -1678,6 +2080,4 @@ function setVideoVersion(videoId, videoSrc) {
             console.error('Video element not found in current item:', videoId);
         }
     }
-}
-</script>
-</html>
+} -->
