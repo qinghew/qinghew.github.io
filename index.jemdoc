@@ -11,7 +11,7 @@ E-mail: aitwqh@163.com \n
 ~~~
 
 == News!
-\[2025\/2\]~~Release [https://github.com/KlingTeam/MultiShotMaster *Codes*] of \"{{MultiShotMaster}}\". Welcome to use! \n
+\[2025\/2\]~~Release [https://github.com/KlingAIResearch/MultiShotMaster *Codes*] of \"{{MultiShotMaster}}\". Welcome to use! \n
 \[2025\/12\]~~Release paper \"[https://qinghew.github.io/MultiShotMaster/ {{MultiShotMaster: A Controllable Multi-Shot Video Generation Framework}}]\". \n
 \[2025\/10\]~~Release paper \"[https://libaolu312.github.io/VFXMaster/ {{VFXMaster: Unlocking Dynamic Visual Effect Generation via In-Context Learning}}]\". \n
 \[2025\/2\]~~Release paper \"[https://arxiv.org/abs/2502.08639 {{CineMaster: A 3D-Aware and Controllable Framework for Cinematic Text-to-Video Generation}}]\". \n
@@ -46,7 +46,7 @@ Topic: Image Generation
 ~~~
 {}{gif_left}{indexpic\multishotmaster.gif}{alt text}{400}{280}{indexpic\multishotmaster.gif}
 \[*Arxiv 2025*]~~\n{{<u>MultiShotMaster: A Controllable Multi-Shot Video Generation Framework
-</u>}} \n *Qinghe Wang*, Xiaoyu Shi✉, Baolu Li, Weikang Bian, Quande Liu, Huchuan Lu, Xintao Wang, Pengfei Wan, Kun Gai, Xu Jia✉ \n \[[https://arxiv.org/abs/2512.03041 Paper]\] \[[https://qinghew.github.io/MultiShotMaster/ Project Page]\] \[[https://github.com/KlingTeam/MultiShotMaster Code]\] \n\n
+</u>}} \n *Qinghe Wang*, Xiaoyu Shi✉, Baolu Li, Weikang Bian, Quande Liu, Huchuan Lu, Xintao Wang, Pengfei Wan, Kun Gai, Xu Jia✉ \n \[[https://arxiv.org/abs/2512.03041 Paper]\] \[[https://qinghew.github.io/MultiShotMaster/ Project Page]\] \[[https://github.com/KlingAIResearch/MultiShotMaster Code]\] \[[https://sites.google.com/view/aaai26-cvm/award-results 🥇 1st Place at AAAI CVM 2026]\] \n\n
 The first controllable multi-shot video generation framework that supports text-driven inter-shot consistency, customized subject with motion control, and background-driven customized scene. Both shot counts and shot durations are variable. 
 ~~~
 
@@ -115,6 +115,7 @@ I serve as a reviewer for TPAMI, TIP, SIGGRAPH, CVPR, ECCV, TNNLS, TCSVT, ICLR, 
 
 
 == Awards
+- * First Prize (🥇 1st Place) at the [https://sites.google.com/view/aaai26-cvm/award-results AAAI CVM 2026 Main Track]*
 - *China Association for Science and Technology (CAST) Young Talent Support Program - Doctoral Student Special Initiative*
 - *Outstanding Master's Thesis of Tianjin University 2023*\n
 - {{<u>Gold Award of Huawei Ascend AI Innovation Competition 2023</u>}}\n
