@@ -72,7 +72,7 @@ A 3D-aware and controllable text-to-video generation method allows users to mani
 
 ~~~
 {}{img_left}{CharacterFactory\static\images\teaser.svg}{alt text}{400}{240}{CharacterFactory\static\images\teaser.svg}
-\[*TIP 2025* \<span style=\"color: blue\"\> CAS-JCR Q1 Top; CCF A\<\/span\>\]~~\n{{<u>CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models
+\[*TIP 2025* \<span style=\"color: blue\"\> CCF A; CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models
 </u>}} \n *Qinghe Wang*, Baolu Li, Xiaomin Li, Bing Cao, Liqian Ma, Huchuan Lu, Xu Jia✉. \n \[[https://huggingface.co/spaces/Qinghew/CharacterFactory *Gradio Demo*]\] \[[https://arxiv.org/abs/2404.15677 Paper]\] \[[https://qinghew.github.io/CharacterFactory/ Project Page]\] \[[https://github.com/qinghew/CharacterFactory Code]\] \n\n
 An end-to-end framework allows users to sample new characters with consistent identities for new character creation.
 ~~~
@@ -81,7 +81,7 @@ An end-to-end framework allows users to sample new characters with consistent id
 
 ~~~
 {}{gif_left}{indexpic\sdid_video.gif}{alt text}{400}{210}{indexpic\sdid_video.gif}
-\[*TMM 2025* \<span style=\"color: blue\"\> CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>StableIdentity: Inserting Anybody into Anywhere at First Sight
+\[*TMM 2025* \<span style=\"color: blue\"\> CCF A; CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>StableIdentity: Inserting Anybody into Anywhere at First Sight
 </u>}} \n *Qinghe Wang*, Xu Jia✉, Xiaomin Li, Taiqing Li, Liqian Ma, Yunzhi Zhuge, Huchuan Lu. \n \[[https://arxiv.org/abs/2401.15975 Paper]\] \[[https://qinghew.github.io/StableIdentity/ Project Page]\] \[[https://github.com/qinghew/StableIdentity Code]\] \[[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]\] \n\n 
 A framework enables identity-consistent generation with just one face image, and seamless integration with video/3D generation without finetuning.
 ~~~
