@@ -1402,7 +1402,7 @@
 
         <div class="subsection-title">Multi-Shot & Multi-Reference Video Generation (384×672) — Built on an Internal DiT</div>
             <div class="carousel-container">
-                <div class="carousel-wrapper" id="carouselWrapper-2"> 
+                <div class="carousel-wrapper" id="carouselWrapper-3"> 
 
                     <div class="carousel-item">
                         <div class="result-condition">
@@ -1700,8 +1700,8 @@
                     </div>
                 </div>            
                 <div class="carousel-nav">
-                    <button class="nav-arrow" id="prevBtn-2">&#10094;</button> 
-                    <button class="nav-arrow" id="nextBtn-2">&#10095;</button> 
+                    <button class="nav-arrow" id="prevBtn-3">&#10094;</button> 
+                    <button class="nav-arrow" id="nextBtn-3">&#10095;</button> 
                 </div>
             </div>
 
@@ -1739,25 +1739,24 @@
                     button.addEventListener('click', function(e) {
                         e.preventDefault();
                         e.stopPropagation();
-                        console.log('Button click detected');
                         
-                        const videoId = this.getAttribute('data-video-id');
                         const videoSrc = this.getAttribute('data-video-src');
                         
-                        // 在当前元素内查找视频
-                        const video = element.querySelector(`#${videoId}`);
+                        // 从按钮出发，找到最近的 carousel-item，再在其中找 video
+                        const carouselItem = this.closest('.carousel-item');
+                        if (!carouselItem) return;
+                        const video = carouselItem.querySelector('video');
                         if (video) {
                             video.src = videoSrc;
                             video.load();
                             
                             video.addEventListener('loadeddata', function() {
-                                video.currentTime = 0; // 从头开始播放
+                                video.currentTime = 0;
                                 video.play();
                             }, { once: true });
                             
                             // 更新按钮状态
-                            const buttons = element.querySelectorAll('.version-toggle-btn');
-                            buttons.forEach(btn => {
+                            carouselItem.querySelectorAll('.version-toggle-btn').forEach(btn => {
                                 btn.classList.remove('active');
                                 if (btn.getAttribute('data-video-src') === videoSrc) {
                                     btn.classList.add('active');
@@ -1812,6 +1811,9 @@
                 
                 carouselContainer.appendChild(dotsContainer);
 
+
+                // 为所有原始 items 绑定按钮事件
+                originalItems.forEach(item => bindButtonEvents(item));
 
                 const firstClone = originalItems[0].cloneNode(true);
                 const lastClone = originalItems[totalOriginal - 1].cloneNode(true);
@@ -1934,6 +1936,7 @@
                 
                 initializeCarousel('carouselWrapper-1', 'prevBtn-1', 'nextBtn-1');
                 initializeCarousel('carouselWrapper-2', 'prevBtn-2', 'nextBtn-2');
+                initializeCarousel('carouselWrapper-3', 'prevBtn-3', 'nextBtn-3');
             
                 
                 
@@ -2096,54 +2099,3 @@ function setVideoVersion(videoId, videoSrc, videoWidth) {
 </html>
 
 
-
-<!-- document.addEventListener('DOMContentLoaded', function() {
-    // 使用事件委托来处理动态内容中的按钮
-    document.addEventListener('click', function(e) {
-        if (e.target.classList.contains('version-toggle-btn')) {
-            e.preventDefault();
-            console.log('Button click detected');
-            
-            const videoId = e.target.getAttribute('data-video-id');
-            const videoSrc = e.target.getAttribute('data-video-src');
-            setVideoVersion(videoId, videoSrc);
-        }
-    });
-});
-
-function setVideoVersion(videoId, videoSrc) {
-    console.log('Setting video:', videoId, videoSrc);
-    
-    // 查找当前可见的轮播项中的视频元素
-    const carouselWrapper = document.getElementById('carouselWrapper-2');
-    const currentTransform = carouselWrapper.style.transform;
-    const translateX = currentTransform.match(/translateX\((-?\d+(?:\.\d+)?)%\)/);
-    const currentIndex = translateX ? Math.abs(parseFloat(translateX[1]) / 100) : 0;
-    
-    const allItems = carouselWrapper.querySelectorAll('.carousel-item');
-    const currentItem = allItems[Math.round(currentIndex)];
-    
-    if (currentItem) {
-        const video = currentItem.querySelector(`#${videoId}`);
-        if (video) {
-            video.src = videoSrc;
-            video.load();
-            
-            video.addEventListener('loadeddata', function() {
-                video.currentTime = 0; // 从头开始播放
-                video.play();
-            }, { once: true });
-            
-            // 更新按钮状态
-            const buttons = currentItem.querySelectorAll('.version-toggle-btn');
-            buttons.forEach(btn => {
-                btn.classList.remove('active');
-                if (btn.getAttribute('data-video-src') === videoSrc) {
-                    btn.classList.add('active');
-                }
-            });
-        } else {
-            console.error('Video element not found in current item:', videoId);
-        }
-    }
-} -->
