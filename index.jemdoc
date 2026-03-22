@@ -19,7 +19,7 @@ E-mail: aitwqh@163.com \n
 \[2024\/5\]~~Release all the [https://github.com/qinghew/CharacterFactory *Codes*] of \"{{CharacterFactory}}\". Welcome to use! \n
 \[2024\/4\]~~Release paper \"[https://qinghew.github.io/CharacterFactory {{CharacterFactory: Sampling Consistent Characters with GANs for Diffusion Models}}]\". \n
 \[2024\/3\]~~Release all the [https://github.com/qinghew/StableIdentity *Codes*] of \"{{StableIdentity}}\". Welcome to use! \n
-\[2024\/1\]~~Release paper \"[https://qinghew.github.io/StableIdentity {{StableIdentity: Inserting Anybody into Anywhere at First Sight}}]\", [[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]. \n
+\[2024\/1\]~~Release paper \"[https://qinghew.github.io/StableIdentity {{StableIdentity: Inserting Anybody into Anywhere at First Sight}}]\", [[https://x.com/ylecun/status/1752545984352080201?s=20 *Yann LeCun: OMG*]. \n
 
 
 == Internships
@@ -82,7 +82,7 @@ An end-to-end framework allows users to sample new characters with consistent id
 ~~~
 {}{gif_left}{indexpic\sdid_video.gif}{alt text}{400}{210}{indexpic\sdid_video.gif}
 \[*TMM 2025* \<span style=\"color: blue\"\> CCF A; CAS-JCR Q1 Top\<\/span\>\]~~\n{{<u>StableIdentity: Inserting Anybody into Anywhere at First Sight
-</u>}} \n *Qinghe Wang*, Xu Jia✉, Xiaomin Li, Taiqing Li, Liqian Ma, Yunzhi Zhuge, Huchuan Lu. \n \[[https://arxiv.org/abs/2401.15975 Paper]\] \[[https://qinghew.github.io/StableIdentity/ Project Page]\] \[[https://github.com/qinghew/StableIdentity Code]\] \[[https://x.com/ylecun/status/1752545984352080201?s=20 *LeCun: OMG*]\] \n\n 
+</u>}} \n *Qinghe Wang*, Xu Jia✉, Xiaomin Li, Taiqing Li, Liqian Ma, Yunzhi Zhuge, Huchuan Lu. \n \[[https://arxiv.org/abs/2401.15975 Paper]\] \[[https://qinghew.github.io/StableIdentity/ Project Page]\] \[[https://github.com/qinghew/StableIdentity Code]\] \[[https://x.com/ylecun/status/1752545984352080201?s=20 *Yann LeCun: OMG*]\] \n\n 
 A framework enables identity-consistent generation with just one face image, and seamless integration with video/3D generation without finetuning.
 ~~~
 
