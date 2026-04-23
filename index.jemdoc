@@ -3,7 +3,7 @@
 
 ~~~
 {}{img_left}{indexpic/wqh.jpg}{alt text}{150}{180}{http://qinghew.github.io}
-I am a third-year PhD student at the [https://iiaulab.github.io/ IIAU-Lab] in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (IEEE Fellow)] and Prof. [https://stephenjia.github.io/ Xu Jia]. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu] and Prof. [https://bcaosudo.github.io/ Bing Cao]. I obtained my Bachelor's degree from Dalian Maritime University. My research focuses on Video\/Image generation with Diffusion models\/GANs.
+I am a third-year PhD student at the [https://iiaulab.github.io/ IIAU-Lab] in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (IEEE Fellow)] and Prof. [https://stephenjia.github.io/ Xu Jia]. I am selected into the China Association for Science and Technology (CAST) Young Talent Support Program - Doctoral Student Initiative. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu] and Prof. [https://bcaosudo.github.io/ Bing Cao]. I obtained my Bachelor's degree from Dalian Maritime University. My research focuses on Video\/Image generation with Diffusion models\/GANs.
 
 E-mail: aitwqh@163.com \n
 
@@ -55,7 +55,7 @@ The first controllable multi-shot video generation framework that supports text-
 ~~~
 {}{gif_left}{indexpic\vfxmaster.gif}{alt text}{400}{220}{indexpic\vfxmaster.gif}
 \[*SIGGRAPH 2026* \<span style=\"color: blue\"\> CCF A\<\/span\>\]~~\n{{<u>VFXMaster: Unlocking Dynamic Visual Effect Generation via In-Context Learning
-</u>}} \n Baolu Li\*, Yiming Zhang\*, *Qinghe Wang*\*(co-first, Project Lead), Liqian Ma✉, Xiaoyu Shi, Xintao Wang, Pengfei Wan, Zhenfei Yin, Yunzhi Zhuge, Huchuan Lu, Xu Jia✉ \n \[[https://arxiv.org/abs/2510.25772 Paper]\] \[[https://libaolu312.github.io/VFXMaster/ Project Page]\] \n\n
+</u>}} \n Baolu Li\*, Yiming Zhang\*, *Qinghe Wang*\*(co-first, Project Lead), Liqian Ma✉, Xiaoyu Shi, Xintao Wang, Pengfei Wan, Zhenfei Yin, Yunzhi Zhuge, Huchuan Lu, Xu Jia✉ \n \[[https://arxiv.org/abs/2510.25772 Paper]\] \[[https://libaolu312.github.io/VFXMaster/ Project Page]\] \[[https://github.com/libaolu312/VFXMaster Code]\] \n\n
 A unified reference-based VFX video generation framework allows users to reproduce diverse dynamic effects from reference videos onto target content.
 ~~~
 
@@ -134,7 +134,7 @@ I serve as a reviewer for TPAMI, TIP, SIGGRAPH, CVPR, ECCV, TNNLS, TCSVT, ICLR, 
 
 == Awards
 - * First Prize (🥇 1st Place) at the [https://sites.google.com/view/aaai26-cvm/award-results AAAI CVM 2026 Main Track]*
-- *China Association for Science and Technology (CAST) Young Talent Support Program - Doctoral Student Special Initiative*
+- *China Association for Science and Technology (CAST) Young Talent Support Program - Doctoral Student Initiative 2025*
 - *Outstanding Master's Thesis of Tianjin University 2023*\n
 - {{<u>Gold Award of Huawei Ascend AI Innovation Competition 2023</u>}}\n
 - {{<u>Third Prize of "Huawei Cup" - the 18th China Postgraduate Mathematical Contest in Modeling 2020</u>}}\n
