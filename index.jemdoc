@@ -1,33 +1,44 @@
 # jemdoc: nofooter,title{Qinghe Wang（王清和）| Dalian University of Technology（大连理工大学）}
-==Qinghe Wang (王清和)
+==Qinghe Wang | 王清和
+
 
 ~~~
-{}{img_left}{indexpic/wqh.jpg}{alt text}{150}{180}{http://qinghew.github.io}
-I am a third-year PhD student at the [https://iiaulab.github.io/ IIAU-Lab] in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (IEEE Fellow)] and Prof. [https://stephenjia.github.io/ Xu Jia]. I am selected into the China Association for Science and Technology (CAST) Young Talent Support Program - Doctoral Student Initiative. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu] and Prof. [https://bcaosudo.github.io/ Bing Cao]. I obtained my Bachelor's degree from Dalian Maritime University. My research focuses on Video\/Image generation with Diffusion models\/GANs.
+{}{img_left}{indexpic/wqh_2018.jpg}{alt text}{150}{180}{http://qinghew.github.io}
+I am a third-year PhD student at the [https://iiaulab.github.io/ IIAU-Lab] in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (IEEE Fellow)] and Prof. [https://stephenjia.github.io/ Xu Jia]. I am selected into the China Association for Science and Technology (CAST) *Young Talent Support Program* - Doctoral Student Initiative. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu] and Prof. [https://bcaosudo.github.io/ Bing Cao]. I obtained my Bachelor's degree from Dalian Maritime University. My research focuses on Video World Models.
 
-E-mail: aitwqh@163.com \n
 
-\[[https://github.com/qinghew GitHub]\] \[[https://scholar.google.com/citations?user=bY5ueZsAAAAJ&hl=zh-CN Google Scholar]\] \[[https://x.com/QingheX42 Twitter/X]\]
+\[[https://github.com/qinghew GitHub]\] \[[https://scholar.google.com/citations?user=bY5ueZsAAAAJ&hl=zh-CN Google Scholar]\] \[[https://x.com/QingheX42 X]\] \[[aitwqh@163.com E-mail: aitwqh@163.com]\] 
+
+\<span style=\"color: red\"\> Graduating in 2027, actively seeking 2026 recruitment opportunities. Please feel free to contact me!\<\/span\>
+
+
 ~~~
-
-
 
 
 == Internships
 ~~~
-{}{img_left}{indexpic\kuaishou.png}{alt text}{200}{40}{indexpic\kuaishou.png}
+{}{img_left}{indexpic\alibaba.png}{alt text}{230}{40}{indexpic\alibaba.png}
+*Alibaba*\n
+2026.5\~Now Research Intern in [https://www.happyoyster.cn/ HappyOyster Team], Alibaba Group (Beijing)~~\n
+Advisor: [https://scholar.google.com/citations?hl=en&user=3ulyv1EAAAAJ&view_op=list_works&sortby=pubdate/ Wenbo Su] \n
+Topic: Real-Time World Creation and Interaction (Directing Mode)
+~~~
+
+
+~~~
+{}{img_left}{indexpic\kuaishou.png}{alt text}{230}{40}{indexpic\kuaishou.png}
 *Kuaishou*\n
-2024.7\~Now Research Intern in Kling Team, Kuaishou Technology (Shenzhen)~~\n
-Supervisors: [https://xiaoyushi97.github.io/ Xiaoyu Shi], [https://xinntao.github.io/ Xintao Wang] \n
+2024.7\~2026.4 Research Intern in [https://app.klingai.com/cn/ Kling Team], Kuaishou Technology (Shenzhen)~~\n
+Advisors: [https://xiaoyushi97.github.io/ Xiaoyu Shi], [https://xinntao.github.io/ Xintao Wang] \n
 Topic: Video Generation
 ~~~
 
 
 ~~~
-{}{img_left}{indexpic\bytedance.png}{alt text}{200}{80}{indexpic\bytedance.png}
+{}{img_left}{indexpic\bytedance.png}{alt text}{230}{80}{indexpic\bytedance.png}
 *ByteDance*\n
 2022.4\~2022.12 Research Intern in ByteDance Intelligent Creation Lab (Beijing)~~\n
-Supervisors: [https://liulj13.github.io/ Lijie Liu], [https://scholar.google.com/citations?user=9rWWCgUAAAAJ&hl=zh-CN Qian He] \n
+Advisors: [https://liulj13.github.io/ Lijie Liu], [https://scholar.google.com/citations?user=9rWWCgUAAAAJ&hl=zh-CN Qian He] \n
 Topic: Image Generation
 ~~~
 
@@ -46,7 +57,7 @@ The first controllable multi-shot video generation framework that supports text-
 ~~~
 {}{gif_left}{indexpic\vfxmaster.gif}{alt text}{400}{220}{indexpic\vfxmaster.gif}
 \[*SIGGRAPH 2026* \<span style=\"color: blue\"\> CCF A\<\/span\>\]~~\n{{<u>VFXMaster: Unlocking Dynamic Visual Effect Generation via In-Context Learning
-</u>}} \n Baolu Li\*, Yiming Zhang\*, *Qinghe Wang*\*(co-first, Project Lead), Liqian Ma✉, Xiaoyu Shi, Xintao Wang, Pengfei Wan, Zhenfei Yin, Yunzhi Zhuge, Huchuan Lu, Xu Jia✉ \n \[[https://arxiv.org/abs/2510.25772 Paper]\] \[[https://libaolu312.github.io/VFXMaster/ Project Page]\] \[[https://github.com/libaolu312/VFXMaster Code]\] \n\n
+</u>}} \n Baolu Li\*, Yiming Zhang\*, *Qinghe Wang\(co-first, Project Lead)*, Liqian Ma✉, Xiaoyu Shi, Xintao Wang, Pengfei Wan, Zhenfei Yin, Yunzhi Zhuge, Huchuan Lu, Xu Jia✉ \n \[[https://arxiv.org/abs/2510.25772 Paper]\] \[[https://libaolu312.github.io/VFXMaster/ Project Page]\] \[[https://github.com/libaolu312/VFXMaster Code]\] \n\n
 A unified reference-based VFX video generation framework allows users to reproduce diverse dynamic effects from reference videos onto target content.
 ~~~
 
@@ -55,7 +66,7 @@ A unified reference-based VFX video generation framework allows users to reprodu
 ~~~
 {}{gif_left}{indexpic\groupedit.png}{alt text}{400}{280}{indexpic\groupedit.png}
 \[*CVPR 2026* \<span style=\"color: blue\"\> CCF A\<\/span\>\]~~\n{{<u>Group Editing: Edit Multiple Images in One Go
-</u>}} \n Yue Ma, Xinyu Wang, Qianli Ma, *Qinghe Wang*✉(co-corresponding), Mingzhe Zheng, Xiangpeng Yang, Hao Li, Chongbo Zhao, Jixuan Ying, Harry Yang, Hongyu Liu✉, Qifeng Chen \n \[[https://arxiv.org/abs/2603.22883 Paper]\] \[[https://group-editing.github.io/ Project Page]\] \[[https://github.com/mayuelala/GroupEditing Code]\] \n\n
+</u>}} \n Yue Ma, Xinyu Wang, Qianli Ma, *Qinghe Wang✉(co-corresponding)*, Mingzhe Zheng, Xiangpeng Yang, Hao Li, Chongbo Zhao, Jixuan Ying, Harry Yang, Hongyu Liu✉, Qifeng Chen \n \[[https://arxiv.org/abs/2603.22883 Paper]\] \[[https://group-editing.github.io/ Project Page]\] \[[https://github.com/mayuelala/GroupEditing Code]\] \n\n
 A unified group-image editing framework enables users to apply consistent and diverse editing across multiple related images by leveraging explicit geometric correspondences and implicit video priors.
 ~~~
 
@@ -64,8 +75,16 @@ A unified group-image editing framework enables users to apply consistent and di
 ~~~
 {}{gif_left}{indexpic\video2lora.png}{alt text}{400}{280}{indexpic\video2lora.png}
 \[*CVPR 2026 Findings* \<span style=\"color: blue\"\> CCF A\<\/span\>\]~~\n{{<u>Video2LoRA: Unified Semantic-Controlled Video Generation via Per-Reference-Video LoRA
-</u>}} \n Zexi Wu, *Qinghe Wang*✉(co-corresponding), Jing Dai, Baolu Li, Yiming Zhang, Yue Ma✉, Xu Jia, Hongming Xu✉ \n \[[https://arxiv.org/pdf/2603.08210 Paper]\] \[[https://github.com/BerserkerVV/Video2LoRA/ Code]\] \n\n
+</u>}} \n Zexi Wu, *Qinghe Wang✉(co-corresponding)*, Jing Dai, Baolu Li, Yiming Zhang, Yue Ma✉, Xu Jia, Hongming Xu✉ \n \[[https://arxiv.org/pdf/2603.08210 Paper]\] \[[https://github.com/BerserkerVV/Video2LoRA/ Code]\] \n\n
 A unified framework takes a reference video containing the desired semantics as input and employs a HyperNetwork to generate lightweight, semantic-specific LoRA modules for semantic-controllable video generation.
+~~~
+
+
+
+~~~
+{}{video_left}{indexpic\easyvfx.mp4}{alt text}{400}{280}{indexpic\video2lora.png}
+\[*SIGGRAPH 2026* \<span style=\"color: blue\"\> CCF A\<\/span\>\]~~\n{{<u>EasyVFX: Frequency-Driven Decoupling for Resource-Efficient VFX Generation</u>}} \n Yue Ma, Xu Ye, *Qinghe Wang✉(co-corresponding)*, Yucheng Wang, Hongyu Liu, Yinhan Zhang, Xinyu Wang, Yuanpeng Che, Shanhui Mo, Paul Liang, Fangneng Zhan✉, Qifeng Chen \n \[[https://arxiv.org/abs/2605.22051 Paper]\] \[[https://easy-vfx.github.io/ Project Page]\] \[[https://github.com/mayuelala/EasyVFX Code]\] \n\n
+A VFX video generation framework takes a reference VFX video as input and employs a frequency-aware decoupling mechanism to enable resource-efficient, high-fidelity visual effect transfer for controllable video generation.
 ~~~
 
 
