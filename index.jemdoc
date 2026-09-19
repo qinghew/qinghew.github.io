@@ -4,7 +4,7 @@
 
 ~~~
 {}{img_left}{indexpic/wqh_2018.jpg}{alt text}{150}{180}{http://qinghew.github.io}
-I am a third-year PhD student at the [https://iiaulab.github.io/ IIAU-Lab] in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (IEEE Fellow)] and Prof. [https://stephenjia.github.io/ Xu Jia]. I am selected into the China Association for Science and Technology (CAST) *Young Talent Support Program* - Doctoral Student Initiative. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu] and Prof. [https://bcaosudo.github.io/ Bing Cao]. I obtained my Bachelor's degree from Dalian Maritime University. My research focuses on Video World Models.
+I am a fourth-year PhD student at the [https://iiaulab.github.io/ IIAU-Lab] in Dalian University of Technology, under the supervision of Prof. [https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN Huchuan Lu (IEEE Fellow)] and Prof. [https://stephenjia.github.io/ Xu Jia]. I am selected into the China Association for Science and Technology (CAST) *Young Talent Support Program* - Doctoral Student Initiative. I obtained my Master's degree from Tianjin University supervised by Prof. [http://aiskyeye.com/ Pengfei Zhu] and Prof. [https://bcaosudo.github.io/ Bing Cao]. I obtained my Bachelor's degree from Dalian Maritime University. My research focuses on Video World Models.
 
 
 \[[https://github.com/qinghew GitHub]\] \[[https://scholar.google.com/citations?user=bY5ueZsAAAAJ&hl=zh-CN Google Scholar]\] \[[https://x.com/QingheX42 X]\] \[[aitwqh@163.com E-mail: aitwqh@163.com]\] 
@@ -13,6 +13,27 @@ I am a third-year PhD student at the [https://iiaulab.github.io/ IIAU-Lab] in Da
 
 
 ~~~
+
+== News
+{{
+    <div style="height: 145px; overflow-y: auto; padding-right: 8px; line-height: 1.6;">
+}}
+\[2026\/6\]~~[https://xishuxishu.github.io/Know3D.github.io/ Know3D] and [https://eccv.ecva.net/virtual/2026/poster/3209 SMARLI] are accepted to ECCV 2026.\n
+# \[2026\/7\]~~[  Mise-en-Video:] is accepted to SIGGRAPH Asia 2026.\n
+\[2026\/5\]~~Start a research internship at [https://www.happyoyster.cn/ HappyOyster Team], advised by [https://scholar.google.com/citations?hl=en&user=3ulyv1EAAAAJ&view_op=list_works&sortby=pubdate/ Wenbo Su].\n
+\[2026\/4\]~~[https://libaolu312.github.io/VFXMaster/ VFXMaster] and [https://easy-vfx.github.io/ EasyVFX] are accepted to SIGGRAPH 2026.\n
+\[2026\/3\]~~[https://qinghew.github.io/MultiShotMaster/ MultiShotMaster], [https://group-editing.github.io/ Group Editing] and  [https://github.com/BerserkerVV/Video2LoRA/ Video2LoRA] are accepted to CVPR 2026.\n
+\[2025\/12\]~~Selected into the CAST Young Talent Support Program - Doctoral Student Initiative.\n
+\[2025\/4\]~~[https://cinemaster-dev.github.io/ CineMaster] is accepted to SIGGRAPH 2025.\n
+\[2025\/3\]~~[https://qinghew.github.io/CharacterFactory CharacterFactory] is accepted to TIP 2025, and [https://qinghew.github.io/StableIdentity/ StableIdentity] is accepted to TMM 2025.\n
+\[2024\/8\]~~[https://ieeexplore.ieee.org/document/10659037/ MoBox] is accepted to TCSVT 2024.\n
+\[2024\/7\]~~[https://dl.acm.org/doi/10.1145/3664647.3680718 MoTrans] and [https://dl.acm.org/doi/10.1145/3664647.3680621 Inverted Interaction] are accepted to ACMMM 2024.\n
+\[2024\/7\]~~Start a research internship at [https://huggingface.co/KlingTeam/ Kling Team], advised by [https://xiaoyushi97.github.io/ Xiaoyu Shi] and [https://xinntao.github.io/ Xintao Wang].\n
+\[2024\/4\]~~Release [https://qinghew.github.io/CharacterFactory CharacterFactory] with a [https://huggingface.co/spaces/Qinghew/CharacterFactory Gradio Demo]. \n
+\[2024\/1\]~~Release [https://qinghew.github.io/StableIdentity StableIdentity]. [[https://x.com/ylecun/status/1752545984352080201?s=20 LeCun: OMG]. \n
+{{
+    </div>
+}}
 
 
 == Internships
@@ -28,7 +49,7 @@ Topic: Real-Time Interactive Streaming Video Generation
 ~~~
 {}{img_left}{indexpic\kuaishou.png}{alt text}{230}{40}{indexpic\kuaishou.png}
 *Kuaishou*\n
-2024.7\~2026.5 Research Intern in [https://app.klingai.com/cn/ Kling Team], Kuaishou Technology (Shenzhen)~~\n
+2024.7\~2026.5 Research Intern in [https://huggingface.co/KlingTeam/ Kling Team], Kuaishou Technology (Shenzhen)~~\n
 Advisors: [https://xiaoyushi97.github.io/ Xiaoyu Shi], [https://xinntao.github.io/ Xintao Wang] \n
 Topic: Video Generation
 ~~~
