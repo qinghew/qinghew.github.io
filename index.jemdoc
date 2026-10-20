@@ -52,7 +52,7 @@ Topic: Real-Time Interactive Streaming Video Generation
 
 
 ~~~
-{}{img_left}{indexpic\kuaishou.png}{alt text}{230}{40}{indexpic\kuaishou.png}
+{}{img_left}{indexpic\kling_logo.png}{alt text}{230}{60}{indexpic\kling_logo.png}
 *Kuaishou*\n
 2024.7\~2026.5 Research Intern in [https://huggingface.co/KlingTeam/ Kling Team], Kuaishou Technology (Shenzhen)~~\n
 Advisors: [https://xiaoyushi97.github.io/ Xiaoyu Shi], [https://xinntao.github.io/ Xintao Wang] \n
@@ -71,6 +71,14 @@ Topic: Image Generation
 
 
 == Selected Publications
+~~~
+{}{img_left}{indexpic\happyworld-bench.png}{alt text}{400}{180}{indexpic\happyworld-bench.png}
+\[*Technique Report*]~~\n{{<u>HappyWorld-Bench
+</u>}} \n Zhiqi Bai, Junai Cai, Yixin Chen, Jingrun Du, Tao Feng, Wei Gong, Siyuan Huang, Xiao Lin, Jiaheng Liu, Jun Luo, Yongzhe Lyu, Liya Ma, Zenan Meng, Lin Qu, Wenbo Su, Jiaming Wang, *Qinghe Wang*, Shaofei Wang, Yanghai Wang, Zequn Wang, Ziming Wang, Hu Wei, Jiangtao Wu, Ruiqi Wu, Jiaxin Xie, Yuchi Xu, Ze Xu, Chengting Yu, Liangyu Yuan, Gang Zeng, Yawen Zeng, Xingyao Zhang, Zizheng Zhang, Bo Zheng, Jiancheng Zhu, Song-Chun Zhu (*Listed in alphabetical order*) \n \[[https://arxiv.org/abs/2609.24308 Paper]\] \[[https://skyeval.com/sla/arena/happyworld/ Project Page]\] \n\n
+Benchmarking the reliability of video, spatial, and embodied world models.
+~~~
+
+
 ~~~
 {}{gif_left}{indexpic\multishotmaster.gif}{alt text}{400}{300}{indexpic\multishotmaster.gif}
 \[*CVPR 2026* \<span style=\"color: blue\"\> CCF A\<\/span\>\]~~\n{{<u>MultiShotMaster: A Controllable Multi-Shot Video Generation Framework
@@ -169,8 +177,9 @@ I serve as a reviewer for TPAMI, TIP, SIGGRAPH, CVPR, ECCV, TNNLS, TCSVT, ICLR, 
 
 
 == Awards
-- * First Prize (🥇 1st Place) at the [https://sites.google.com/view/aaai26-cvm/award-results AAAI CVM 2026 Main Track]*
-- *China Association for Science and Technology (CAST) Young Talent Support Program - Doctoral Student Initiative 2025*
+- * First Prize (🥇 1st Place) at the [https://sites.google.com/view/aaai26-cvm/award-results AAAI CVM 2026 Main Track]*\n
+- *Outstanding Doctoral Dissertation Special Scholarship 2026*\n
+- *China Association for Science and Technology (CAST) Young Talent Support Program - Doctoral Student Initiative 2025*\n
 - *Outstanding Master's Thesis of Tianjin University 2023*\n
 - {{<u>Gold Award of Huawei Ascend AI Innovation Competition 2023</u>}}\n
 - {{<u>Third Prize of "Huawei Cup" - the 18th China Postgraduate Mathematical Contest in Modeling 2020</u>}}\n
