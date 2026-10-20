@@ -73,7 +73,7 @@ Topic: Image Generation
 == Selected Publications
 ~~~
 {}{img_left}{indexpic\happyworld-bench.png}{alt text}{400}{180}{indexpic\happyworld-bench.png}
-\[*Technique Report*]~~\n{{<u>HappyWorld-Bench
+\[*Technique Report from HappyOyster*]~~\n{{<u>HappyWorld-Bench
 </u>}} \n Zhiqi Bai, Junai Cai, Yixin Chen, Jingrun Du, Tao Feng, Wei Gong, Siyuan Huang, Xiao Lin, Jiaheng Liu, Jun Luo, Yongzhe Lyu, Liya Ma, Zenan Meng, Lin Qu, Wenbo Su, Jiaming Wang, *Qinghe Wang*, Shaofei Wang, Yanghai Wang, Zequn Wang, Ziming Wang, Hu Wei, Jiangtao Wu, Ruiqi Wu, Jiaxin Xie, Yuchi Xu, Ze Xu, Chengting Yu, Liangyu Yuan, Gang Zeng, Yawen Zeng, Xingyao Zhang, Zizheng Zhang, Bo Zheng, Jiancheng Zhu, Song-Chun Zhu (*Listed in alphabetical order*) \n \[[https://arxiv.org/abs/2609.24308 Paper]\] \[[https://skyeval.com/sla/arena/happyworld/ Project Page]\] \n\n
 Benchmarking the reliability of video, spatial, and embodied world models.
 ~~~
